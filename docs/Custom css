@@ -1,0 +1,578 @@
+/*
+    Owned by SaikoKurami
+    * https//anilist.co/user/SaikoKurami
+    (c) 2021 - AniList Custom CSS V.1.0.7
+    
+    Remember one of the God's Commandments
+    "Thou shall not steal"
+*/ 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*===============================================
+    Profile Banner
+===============================================*/
+.avatar[data-v-1cc2919e] {
+    content: url(https://i.imgur.com/PLTCAq0.gif);
+}
+
+.header-wrap > div.banner > div.container > div > img {
+    display: inline-block;
+    max-height: 230px;
+    max-width: 160px;
+    width: 100%;
+    border-radius: 50%;
+    border: 9px solid rgb(119 198 211);
+    margin-bottom: 10px;
+}
+
+.banner-content .name {
+    bottom: 120px;
+    font-size: 2rem;
+    padding: 9px 20px 3px 20px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.banner-content h1.name {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background: #415164;
+    filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
+}
+
+.name[data-v-de544782],
+.name[data-v-5445dac8] {
+    color: rgb(255 255 255);
+}
+
+.header-wrap .actions .nav-btn {
+    background: rgb(65 81 100);
+    margin-bottom: 8px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.header-wrap .actions .dropdown {
+    margin-top: 150px;
+    background: rgb(var(--color-overlay),0);
+    
+    color: rgb(115, 190, 203);
+}
+
+.header-wrap .nav-wrap {
+    background-color: rgb(var(--color-foreground));
+    position: relative;
+    z-index: 2;
+}
+
+.header-wrap .nav-wrap .nav .link {
+    margin: 0 30px;
+    font-size: 1.7rem;
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.header-wrap .nav-wrap .nav .link:hover {
+    border-bottom: 3px solid rgba(var(--color-text),0.7);
+}
+
+.header-wrap .nav-wrap .nav .link.router-link-active {
+    border-bottom: 3px solid rgb(115, 190, 203);
+    color: #dbdbdb;
+}
+
+.header-wrap .nav-wrap .nav .link:nth-child(7),
+.header-wrap .nav-wrap .nav .link:nth-child(8) {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.mod-badge-wrap.follower-badge {
+    background: rgb(119, 198, 211);
+    padding: 8px 8px 7px 8px;
+    margin-bottom: 33px;
+    margin-left: -11px;
+    font-size: 0rem;
+    border-radius: 780px;
+}   
+
+.mod-badge-wrap.follower-badge:after {
+    content: "\f00c" !important;
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    color: rgb(var(--color-white));
+    font-weight: lighter;
+}
+
+/*===============================================
+    Remove some hoh features (Sorry hoh)
+===============================================*/
+.activity-manga_list > div > div > div > div > .title, .hohPinned .list .title[href^="/manga/"] {
+    color: rgba(124, 137, 154)!important;
+}
+
+.hohDownload {
+    display: none;
+}
+
+.hohScore {
+    display: none;
+}
+
+.hohRewatchSuffix {
+    display: none;
+}
+
+/*===============================================
+    Hide Genre
+===============================================*/    
+.desktop:nth-of-type(3) {
+    height: 0;
+    visibility: hidden;
+}
+
+/*===============================================
+    Overview bugfixed*
+===============================================*/
+.user .overview {
+    grid-template-columns: 500px auto!important;
+}
+    
+.history-day {
+    border-radius: 6px !important;
+}
+
+.overview .content-wrap {
+    border-radius: 6px;
+}
+
+.favourites .favourite {
+    border-radius: 9px !important;
+    border: 5px solid #172436;
+}
+
+.favourites.preview .favourites-wrap {
+    margin-left: 10px;
+}
+
+.overview .favourites > .favourites-wrap {
+    width: 480px;
+}
+
+.activity-message .wrap > .actions,
+.activity-text .wrap > .actions {
+    right: 0;
+    bottom: 0;
+    font-size: 1.35rem;
+    margin: -10px 10px 10px 15px;
+}
+.cover,
+.activity-anime_list .wrap,
+.activity-manga_list .wrap {
+    max-height: 70px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+.activity-anime_list .wrap:hover,
+.activity-manga_list .wrap:hover {
+    max-height: 150px;
+}
+
+.activity-anime_list .wrap:hover .cover,
+.activity-manga_list .wrap:hover .cover {
+    max-height: 150px;
+    transition: 0.2s;
+}    
+.time .action.active[data-v-1bf2cf4e] {
+    color: rgba(115, 190, 203);
+}
+
+/*Bio stretched to max-height*/
+.content-wrap {
+  max-height: none !important;
+}
+
+.stats-wrap {
+  transform: scale(1) !important;
+}
+
+/*===============================================
+    Body modifications
+===============================================*/
+body {
+    cursor: url(https://i.imgur.com/lO6CsbT.png), auto;
+    overflow: overlay;
+    background: rgb(var(--color-background)) url("https://i.imgur.com/fzpFvaS.png") center/100% fixed;
+}
+:root, body, .site-theme-dark, .site-theme-contrast {
+    --color-background: 11,22,34 !important;
+    --color-foreground: 21,31,46 !important;
+    --color-foreground-grey: 15,22,31 !important;
+    --color-foreground-grey-dark: 6,12,19 !important;
+    --color-foreground-blue: 15,22,31 !important;
+    --color-foreground-blue-dark: 6,12,19 !important;
+    --color-text: 159,173,189!important;
+    --color-text-light: 114,138,161 !important;
+    --color-text-lighter: 133,150,165!important;
+    --color-shadow-blue: 0,5,15!important;
+    --color-background-1200: 251,251,251!important;
+    --color-background-1100: 240,243,246 !important;
+    --color-background-1000: 221,230,238 !important;
+    --color-background-900: 201,215,227!important;
+    --color-background-800: 173,192,210 !important;
+    --color-background-700: 139,160,178 !important;
+    --color-background-600: 116,136,153 !important;
+    --color-background-500: 100,115,128 !important;
+    --color-background-400: 81,97,112 !important;
+    --color-background-300: 30,42,56 !important;
+    --color-background-100: 21,31,46 !important;
+    --color-background-200: 11,22,34 !important;
+    --color-gray-1200: 251,251,251 !important;
+    --color-gray-1100: 240,243,246 !important;
+    --color-gray-1000: 221,230,238 !important;
+    --color-gray-900: 201,215,227 !important;
+    --color-gray-800: 173,192,210 !important;
+    --color-gray-700: 139,160,178 !important;
+    --color-gray-600: 116,136,153 !important;
+    --color-gray-500: 100,115,128 !important;
+    --color-gray-400: 81,97,112 !important;
+    --color-gray-300: 30,42,56 !important;
+    --color-gray-100: 21,31,46 !important;
+    --color-gray-200: 11,22,34 !important;
+}
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #73BECB;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #00000000;
+}
+::-webkit-scrollbar-corner {
+    background: #73BECB;
+}
+::-webkit-scrollbar-thumb {
+    background: #73BECB;
+    -webkit-border-radius: 1ex;
+}
+
+.cover {
+    border-radius: 6px !important;
+}
+
+.favourites {
+    margin-top: 0 !important;
+}
+    
+/* favourite enlarge while hover*/
+.favourite[data-v-0317d914] {
+   transition: transform .2s;
+   border-radius: 20%;
+   position: static;
+   overflow: visible;
+}
+
+.favourite:hover {
+   transform: scale(1.2);
+   position: static;
+   overflow: visible;
+}
+.favourite:hover .favourites .favourite {
+border: 3px solid #172436;
+}
+
+.favourites.preview .favourites-wrap .favourite, 
+.favourites.preview .favourites-wrap>div {
+   overflow: visible;
+}
+
+.favourites-wrap[data-v-ddf96a3c] {
+   overflow: visible;
+}
+
+.about .content-wrap::-webkit-scrollbar {
+    width: 0px!important;
+    background: #00000000;
+}
+    
+.text .markdown::-webkit-scrollbar {
+    width: 2px !important;
+    background: #00000000;
+}
+
+.text .markdown {
+    margin-right: 6px;
+    margin-left: 8px;
+    margin-bottom: 20px !important;
+ }
+
+.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
+    margin-top: 30px;
+}
+/*===============================================
+    Top Navigation
+===============================================*/
+.nav {
+    background: #152232 !important;
+    color: #a0b1c5 !important;
+}
+.nav[data-v-4fbac4e1] {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    left: calc((100% - 70%) / 2);
+    top: 0%;
+    width: 70%;
+    border-radius: 0 0 70px 70px;
+}
+    .site-theme-dark .nav-unscoped.transparent {
+    background: rgba(26, 39, 58);
+    color: #d8dde5;
+}
+.nav .wrap {
+    display: grid;
+    grid-template-columns: 70px auto auto 70px;
+}
+
+.nav .wrap .links {
+    grid-column-start: 3;
+    margin-left: -25px;
+}
+
+.nav .wrap .search {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 35px;
+    width: 90%;
+    cursor: text;
+    font-family: "Overpass";
+}
+
+.nav .wrap .search:after {
+    content: "Search AniList";
+    margin-left: 10px;
+    color: #777a9e;
+}
+
+.nav .wrap .search:hover {
+    box-shadow: 0 1px 4px #121b28, 0 0 0 3px #c7cdd6;
+    padding: 7px;
+    transition: .2s;
+}
+
+.nav .wrap .user {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+  
+.activity-feed .liked {
+    color: rgb(115, 190, 203);
+}
+
+.logo img[data-v-4fbac4e1] {
+    height: 45px;
+    width: 45px;
+}
+
+/*===============================================
+    Stats
+===============================================*/
+.stats-wrap[data-v-5c30286e]{
+    margin-right: 0us activity%;
+}
+.stats-wrap[data-v-815ccddc] {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 20px 30px;
+    text-align: left;
+}
+.stat .value[data-v-815ccddc] {
+    color: rgb(var(--color-text-lighter));
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.stat .label[data-v-815ccddc] {
+    color: rgb(var(--color-text-lighter));
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+ .stat:nth-child(1) .value[data-v-815ccddc] {
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+
+.stat:nth-child(1) .label {
+    font-weight: 700;    
+    font-size: 2rem;
+}
+   
+.stat[data-v-815ccddc]:nth-child(1) {
+    grid-row-start: span 2;
+}
+
+.stat:nth-child(1) .value[data-v-815ccddc] {
+    font-size: 5.5rem;
+}
+    
+.stat:nth-child(1) .label[data-v-815ccddc] {
+    font-size: 2rem;
+}
+    
+.progress[data-v-815ccddc] {
+    background: rgb(var(--color-foreground-grey-dark),0);
+    height: 11px;
+    padding: 0 16.5%;
+}
+
+.progress .bar[data-v-815ccddc] {
+    background: linear-gradient(
+270deg
+,#73BECB,#73BECB);
+}
+
+.list-stats {
+    font-weight: 600;
+    overflow: hidden;
+    padding: 0!important;
+}
+
+.milestones[data-v-815ccddc] {
+    font-family: Overpass;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 6px 0;
+    border-radius:  0!important;
+ }
+
+.section > .stats-wrap > .list-stats:nth-child(2) .stat:nth-child(2) .value,
+.section > .stats-wrap > .list-stats:nth-child(1) .stat:nth-child(2) .value {
+    display: flex;
+    color: rgb(var(--color-text-lighter));
+}
+
+.section
+  > .stats-wrap
+  > .list-stats:nth-child(1)
+  .stat:nth-child(2)
+  .value:after {
+    content: '';
+    mask: url(https://files.catbox.moe/jyg6jn.svg) no-repeat 50% 50%;
+    -webkit-mask: url(https://files.catbox.moe/jyg6jn.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 4.5%;
+    background-color: rgba(var(--color-text-light));
+}
+   
+.section
+  > .stats-wrap
+  > .list-stats:nth-child(2)
+  .stat:nth-child(2)
+  .value:after {
+    content: '';
+    mask: url(https://files.catbox.moe/y3fyrt.svg) no-repeat 50% 50%;
+    -webkit-mask: url(https://files.catbox.moe/y3fyrt.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 4.5%;
+    background-color: rgba(var(--color-text-light));
+} 
+
+
+/*===============================================
+    Anime list and manga list cover bugfixed
+===============================================*/
+
+.lists > div > div > div.list-entries > div > div.cover {
+    max-height: 250px;
+}
+
+/*Unfollow botton*/
+.unfollow[data-v-39573fe2] {
+    background: rgb(164, 213, 220);
+}
+/*===============================================
+    DISCORD SERVER
+===============================================*/
+
+
+.about a:nth-child(17)::after {
+    content: "";
+    background-image: url("https://i.imgur.com/CWU2GsB.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/*===============================================
+    added modified bio
+===============================================*/
+
+.hohPinned.activity-text > div > div.text > div.header {
+display: none !important;
+}
+.hohPinned .time {
+display: none !important;
+}
+.hohPinned.activity-text > div > div.text > div.header {
+display: none !important;
+}
+.hohPinned .action {
+display: none !important;
+}
+.hohPinned.activity-text > div > div.text > div.activity-markdown > div {
+    margin-bottom: 0 !important;
+}
+
+/*===============================================
+    SINON COVER
+===============================================*/
+
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
+    background-image: url(https://i.imgur.com/rjUgKbr.png) !important;
+}
+
+a.favourite.media.hohExtraFav {
+    display: none;
+}
+/*===============================================
+    FOOTER PARTICLE BACKGROUND
+===============================================*/
+#app > div.wrap > div {
+    background: #11161d url(https://i.imgur.com/3JjhuIh.gif) no-repeat center/100% !important;
+    width: auto;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+}
+/*===============================================
+    REMOVED MULTIPLE HOH PINNED BUG
+===============================================*/
+.page-content > div > div.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div:nth-child(2) > div > div.text,
+.page-content > div > div.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div:nth-child(3) > div > div.text,
+.page-content > div > div.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div:nth-child(4) > div > div.text {
+    display: none;
+}
