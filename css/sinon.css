@@ -409,7 +409,8 @@ background-color: rgb(var(--color-foreground-grey));
     justify-content: center;
     font-size: 1.2rem;
 }
-   .overview .favourite.studio::after {
+
+.overview .favourite.studio::after {
     display: none !important;
 }
 
