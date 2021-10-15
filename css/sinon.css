@@ -172,6 +172,22 @@
     margin-top: 30px;
 }
 
+/* Favourite Studio */
+.overview .favourite.studio {
+    min-height: 30px !important;
+    max-height: 30px !important;
+}
+
+.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(8) > div {
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-template-rows: repeat(auto-fill,40px);
+}
+
+.site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--color-foreground))!important;
+    border: 1px !important;
+}
+
 /*===============================================
     Top Navigation
 ===============================================*/
