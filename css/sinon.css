@@ -188,6 +188,18 @@
     border: 1px !important;
 }
 
+.overview .favourite.studio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.overview .favourite.studio::after {
+    display: none !important;
+}
+
 /*===============================================
     Top Navigation
 ===============================================*/
@@ -416,18 +428,6 @@ background-color: rgb(var(--color-foreground-grey));
 
 .hohRewatchSuffix {
     display: none;
-}
-
-.overview .favourite.studio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-.overview .favourite.studio::after {
-    display: none !important;
 }
 
 /*===============================================
