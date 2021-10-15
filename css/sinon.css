@@ -180,7 +180,7 @@
 
 .page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(8) > div {
     grid-template-columns: repeat(auto-fill,85px);
-    grid-template-rows: repeat(auto-fill,45px);
+    grid-template-rows: repeat(auto-fill,50px);
 }
 
 body .overview .favourite.studio,
@@ -188,6 +188,7 @@ body .overview .favourite.studio,
 .site-theme-dark .overview .favourite.studio {
     background-color: rgb(var(--color-foreground))!important;
     border: 1px !important;
+    border-radius: 5.6px !important;
 }
 
 .overview .favourite.studio {
