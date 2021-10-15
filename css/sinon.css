@@ -402,6 +402,17 @@ background-color: rgb(var(--color-foreground-grey));
     display: none;
 }
 
+.overview .favourite.studio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+   .overview .favourite.studio::after {
+    display: none !important;
+}
+
 /*===============================================
     Overview
 ===============================================*/
