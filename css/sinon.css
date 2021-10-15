@@ -183,6 +183,8 @@
     grid-template-rows: repeat(auto-fill,40px);
 }
 
+body .overview .favourite.studio,
+.site-theme-contrast .overview .favourite.studio,
 .site-theme-dark .overview .favourite.studio {
     background-color: rgb(var(--color-foreground))!important;
     border: 1px !important;
