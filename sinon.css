@@ -760,10 +760,3 @@ animation: zoomIn;
     animation-duration: 1s;
 }
 
-.mod-badge-wrap.follower-badge,
-.site-theme-dark .nav-unscoped.transparent,
-.actions,
-.banner-content h1.name {
-animation: fadeInDown;
-    animation-duration: 1s;
-}
