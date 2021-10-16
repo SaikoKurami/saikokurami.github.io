@@ -1,4 +1,5 @@
-  /*
+
+/*
     Owned by Chris (SaikoKurami)
     * https//anilist.co/user/SaikoKurami
     (c) 2021 - Sinon Theme Custom CSS V.1.0.9
@@ -510,7 +511,7 @@ background-color: rgb(var(--color-foreground-grey));
     overflow: hidden;
     display: block;
     text-overflow: ellipsis;
-}
+  }
 }
 
 .activity-anime_list .wrap:hover .list.small > div > div.status > a ,
