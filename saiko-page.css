@@ -19,7 +19,25 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(115, 190, 203);
+}
 
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(0 0 0 / 0%);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb(115, 190, 203);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(115, 190, 203);
+    -webkit-border-radius: 1ex;
+}
 .grid {
   width: 100%;
   max-width: 60rem;
