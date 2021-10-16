@@ -13,7 +13,11 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   line-height: 1.25;
-  background-color: #18222d;
+  background: url(https://i.imgur.com/fzpFvaS.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .grid {
