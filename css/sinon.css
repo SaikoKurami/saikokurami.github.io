@@ -203,6 +203,11 @@ body .overview .favourite.studio,
     display: none !important;
 }
 
+/*Kyoto Animation font-size*/
+.favourites-wrap.studios > a:nth-child(7) {
+    font-size: 1rem;
+}
+
 /*===============================================
     Top Navigation
 ===============================================*/
