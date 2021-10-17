@@ -52,7 +52,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         min-width: 320px;min-height: var(--viewport-height);
         line-height: 1.0;
         word-wrap: break-word;overflow-x: hidden;
-      }body:before {content: '';
+        background: rgb(21,31,46) url(https://i.imgur.com/fzpFvaS.png) center/100% fixed;
+}
+
+body:before {
+  content: '';
         display: block;position: fixed;
         top: 0;left: 0;
         width: 100vw;
@@ -60,7 +64,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         z-index: 0;
         pointer-events: none;
         transform: scale(1);
-        background: rgb(21,31,46) url(https://i.imgur.com/fzpFvaS.png) center/100% fixed;
       }
       
       /*Scroll bar*/
