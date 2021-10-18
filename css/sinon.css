@@ -525,8 +525,8 @@ background-color: rgb(var(--color-foreground-grey));
     white-space: normal;
 }
 
-width.activity-anime_list > .wrap > .list.small > div > div.status > a,
-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
+.full-width.activity-anime_list > .wrap > .list.small > div > div.status > a,
+.full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
     width: 600px;
 }
 
