@@ -519,10 +519,6 @@ background-color: rgb(var(--color-foreground-grey));
     white-space: normal;
 }
 
-.full-width .list.small > div > div.status > a {
-    text-overflow: unset;
-}
-
 /*===============================================
     Stats
 ===============================================*/
