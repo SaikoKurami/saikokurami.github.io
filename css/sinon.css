@@ -476,23 +476,29 @@ background-color: rgb(var(--color-foreground-grey));
     margin: -10px 10px 10px 15px;
 }
 
+@media (min-width: 1540px) {
 .cover,
 .activity-anime_list .wrap,
 .activity-manga_list .wrap {
     max-height: 70px;
     overflow: hidden;
     transition: 0.2s;
+    }
 }
 
+@media (min-width: 1540px) {
 .activity-anime_list .wrap:hover,
 .activity-manga_list .wrap:hover {
     max-height: 150px;
+    }
 }
 
+@media (min-width: 1540px) {
 .activity-anime_list .wrap:hover .cover,
 .activity-manga_list .wrap:hover .cover {
     max-height: 150px;
     transition: 0.2s;
+    }
 }
 
 .time .action.active[data-v-1bf2cf4e] {
@@ -517,6 +523,11 @@ background-color: rgb(var(--color-foreground-grey));
 .activity-anime_list .wrap:hover .list.small > div > div.status > a ,
 .activity-manga_list .wrap:hover .list.small > div > div.status > a {
     white-space: normal;
+}
+
+width.activity-anime_list > .wrap > .list.small > div > div.status > a,
+width.activity-manga_list > .wrap > .list.small > div > div.status > a {
+    width: 600px;
 }
 
 /*===============================================
