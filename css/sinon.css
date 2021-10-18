@@ -175,8 +175,8 @@
 
 /* Favourite Studio */
 .overview .favourite.studio {
-    min-height: 30px !important;
-    max-height: 30px !important;
+    min-height: 45px !important;
+    max-height: 45px !important;
 }
 
 .page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(8) > div {
