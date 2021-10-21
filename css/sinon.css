@@ -135,10 +135,19 @@
    position: static;
    overflow: visible;
 }
-#\30 \.27111794783009535 > center:nth-child(2) > a:nth-child(4) > img:hover,
-#\30 \.27111794783009535 > center:nth-child(2) > a:nth-child(3) > img:hover,
-#\30 \.27111794783009535 > center:nth-child(2) > a:nth-child(2) > img:hover,
-#\30 \.27111794783009535 > center:nth-child(2) > a:nth-child(1) > img:hover {
+
+/*Bio Favourites*/
+.about a:nth-child(1) > img,
+.about a:nth-child(2) > img,
+.about a:nth-child(3) > img,
+.about a:nth-child(4) > img {
+    transition: 1s;
+}
+
+.about a:nth-child(1) > img:hover,
+.about a:nth-child(2) > img:hover,
+.about a:nth-child(3) > img:hover,
+.about a:nth-child(4) > img:hover {
     transform: scale(1.1);
 }
 
