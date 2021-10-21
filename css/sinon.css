@@ -141,14 +141,15 @@
 .about a:nth-child(2) > img,
 .about a:nth-child(3) > img,
 .about a:nth-child(4) > img {
-    transition: 1s;
+    transition: .5s;
 }
 
 .about a:nth-child(1) > img:hover,
 .about a:nth-child(2) > img:hover,
 .about a:nth-child(3) > img:hover,
 .about a:nth-child(4) > img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    transition: .5s;
 }
 
 .favourite:hover {
