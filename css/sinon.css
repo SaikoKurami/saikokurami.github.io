@@ -813,6 +813,7 @@ a.favourite.media.hohExtraFav {
     animation-duration: .5s;
 }
 
+.header-wrap .actions .nav-btn:hover,
 .banner-content h1.name:hover,
 .header-wrap > div.banner > div.container > div > img:hover {
     transform: scale(1.05);
