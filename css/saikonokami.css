@@ -651,7 +651,7 @@ a.favourite.media.hohExtraFav {
 }
 
 /* My Waifu Ahra Crown */
-.character a:nth-child(1):after {
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):after {
     content: '';
     mask: var(--sinon-owner-icon) no-repeat 50% 50%;
     -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
