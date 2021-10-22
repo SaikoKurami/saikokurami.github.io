@@ -776,6 +776,7 @@ background-color: rgb(var(--color-foreground-grey));
     Added Features
 ===============================================*/
 
+/*Sinon Discord Server*/
 .about a:nth-child(17)::after {
     content: "";
     background-image: var(--sinon-stray-guild);
