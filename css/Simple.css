@@ -1,0 +1,247 @@
+/*
+    Made by Chris (SaikoKurami)
+    * https//anilist.co/user/SaikoKurami
+    (c) 2021 - Simple CSS V.1.0.1
+    
+    Simple CSS Categorized by:
+    > Body Modification
+    > Top Navigation
+    > Profile Header
+    > Overview
+    > Removed
+    > Added Features
+    > Animations
+
+*/
+
+:root {
+  /*Color Scheme*/
+  --sk-main: 115, 190, 203;
+  --sk-second: 249, 189, 4;
+  --sk-third: 40, 56, 77;
+  --sk-third-light: 65, 81, 100;
+  --sk-third-dark: 40, 56, 77;
+  --sk-white: 255, 255, 255;
+  --sk-dirty-white: 219, 219, 219;
+  --sk-transparent: rgb(0 0 0 / 0%);
+  /*Customize image*/
+  --sk-background: ;
+  --sk-cursor: ;
+  /*Font Name*/
+  --sk-font: Overpass;
+}
+
+/*===============================================
+    Body Modification
+=================================================*/
+
+    body {
+    cursor: var(--sinon-cursor), auto;
+    overflow: overlay;
+    background: var(--sk-background) center/100% fixed, rgb(var(--color-background));
+    font-family: var(--sk-font), sans-serif;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(var(--sk-transparent));
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb(var(--sk-main));
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--sk-main));
+    -webkit-border-radius: 1ex;
+}
+
+/*Bio stretched to max-height*/
+.content-wrap {
+  max-height: none !important;
+}
+.cover {
+    border-radius: 6px !important;
+}
+
+.favourites {
+    margin-top: 0 !important;
+}
+    
+/* favourite enlarge while hover*/
+.favourite[data-v-0317d914] {
+   transition: transform .2s;
+   border-radius: 20%;
+   position: static;
+   overflow: visible;
+}
+
+/*Bio Favourites*/
+.about a:nth-child(1) > img,
+.about a:nth-child(2) > img,
+.about a:nth-child(3) > img,
+.about a:nth-child(4) > img {
+    transition: .5s;
+}
+
+.about a:nth-child(1) > img:hover,
+.about a:nth-child(2) > img:hover,
+.about a:nth-child(3) > img:hover,
+.about a:nth-child(4) > img:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.favourite:hover {
+   transform: scale(1.1);
+   position: static;
+   overflow: visible;
+   border: 3px solid rgb(var(--color-foreground));
+}
+
+.favourites.preview .favourites-wrap .favourite, 
+.favourites.preview .favourites-wrap>div {
+   overflow: visible;
+}
+
+.favourites-wrap[data-v-ddf96a3c] {
+   overflow: visible;
+}
+
+/*Fixed bio scrollbar*/
+.about .content-wrap::-webkit-scrollbar {
+    width: 0px!important;
+    background: rgb(var(--sk-transparent));
+}
+    
+.text .markdown::-webkit-scrollbar {
+    width: 2px !important;
+    background: rgb(var(--sk-transparent));
+}
+
+.text .markdown {
+    margin-right: 6px;
+    margin-left: 8px;
+    margin-bottom: 20px !important;
+ }
+
+.page-content
+> div 
+> div.content.container
+> div
+> div:nth-child(1)
+> h2 {
+    margin-top: 30px;
+}
+
+/* Favourite Studio */
+.overview .favourite.studio {
+    min-height: 45px !important;
+    max-height: 45px !important;
+}
+
+.page-content 
+> div
+> div.content.container
+> div
+> div:nth-child(1) 
+> div:nth-child(8) 
+> div {
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-template-rows: repeat(auto-fill,50px);
+}
+
+body .overview .favourite.studio,
+.site-theme-contrast .overview .favourite.studio,
+.site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--color-foreground))!important;
+    border: 1px !important;
+    border-radius: 5.6px !important;
+}
+
+.overview .favourite.studio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.overview .favourite.studio::after {
+    display: none !important;
+}
+
+/*===============================================
+    Top Navigation
+===============================================*/
+
+.header-wrap {
+  margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 75px;
+}
+
+.nav {
+    background: rgb(var(--color-foreground)) !important;
+    color: rgb(var(--sinon-dirty-white)) !important;
+}
+
+    .site-theme-dark .nav-unscoped.transparent {
+    background: rgba(var(--color-foreground));
+    color: rgb(var(--sinon-dirty-white));
+}
+
+.nav .wrap .links {
+    grid-column-start: 3;
+    margin-left: -25px;
+}
+
+.nav .wrap .search {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 10px;
+    background: rgb(var(--color-foreground-grey));
+    border-radius: 35px;
+    width: 90%;
+    cursor: text;
+    font-family: "Overpass";
+}
+
+.nav .wrap .search:after {
+    content: "Search AniList";
+    margin-left: 10px;
+    color: rgb(var(--color-text-lighter));
+}
+
+.nav .wrap .search:hover {
+    box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--sk-dirty-white));
+    padding: 7px;
+    transition: .2s;
+}
+
+.nav .wrap .user {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+/*===============================================
+    Profile Header
+===============================================*/
+
+.banner {
+      height: 250px;
+}
+
+
+.activity-feed .liked {
+    color: rgb(var(--sk-main));
+}
+
+/* Hide Genre */
+.desktop:nth-of-type(3) {
+    height: 0;
+    visibility: hidden;
+}
+
+
