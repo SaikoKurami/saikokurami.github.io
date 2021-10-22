@@ -612,7 +612,7 @@ background-color: rgb(var(--color-foreground-grey));
     height: 30px;
     position: absolute;
     right: 4.5%;
-    background-color: rgba(var(--sinon-cyan));
+    background-color: rgba(var(--sinon-gold));
 }
 
 .section
@@ -629,7 +629,7 @@ background-color: rgb(var(--color-foreground-grey));
     height: 30px;
     position: absolute;
     right: 4.5%;
-    background-color: rgba(var(--sinon-cyan));
+    background-color: rgba(var(--sinon-gold));
 }
 
 /*===============================================
