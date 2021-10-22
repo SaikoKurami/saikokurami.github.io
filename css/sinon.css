@@ -180,7 +180,12 @@
     margin-bottom: 20px !important;
  }
 
-.page-content > div > div.content.container > div > div:nth-child(1) > h2 {
+.page-content
+> div 
+> div.content.container
+> div
+> div:nth-child(1)
+> h2 {
     margin-top: 30px;
 }
 
@@ -190,7 +195,13 @@
     max-height: 45px !important;
 }
 
-.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(8) > div {
+.page-content 
+> div
+> div.content.container
+> div
+> div:nth-child(1) 
+> div:nth-child(8) 
+> div {
     grid-template-columns: repeat(auto-fill,85px);
     grid-template-rows: repeat(auto-fill,50px);
 }
@@ -295,7 +306,13 @@ body .overview .favourite.studio,
 ===============================================*/
 
 /*profile avatar*/
-.page-content > div > div.header-wrap > div.banner > div.container > div > img {
+.page-content
+> div 
+> div.header-wrap
+> div.banner
+> div.container 
+> div 
+> img {
     content: var(--sinon-avatar);
 }
 
@@ -304,7 +321,11 @@ body .overview .favourite.studio,
 display: none;
 }
 
-.header-wrap > div.banner > div.container > div > img {
+.header-wrap 
+> div.banner 
+> div.container 
+> div 
+> img {
     display: inline-block;
     max-height: 230px;
     max-width: 160px;
@@ -405,7 +426,11 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     mask-size: cover;
 }
 
-.text > .header > .name::after, .reply > .header > .name::after {
+.text 
+> .header
+> .name::after, .reply 
+> .header
+> .name::after {
     content: '';
     mask: var(--sinon-friends-icon) no-repeat 50% 50%;
     -webkit-mask: var(--sinon-friends-icon) no-repeat 50% 50%;
@@ -423,8 +448,17 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     letter-spacing: 0.03em;
 }
 
-.activity-feed > div > div.wrap > div.text > div.header > a.avatar,
-.activity-entry.preview.activity-text > div > div.text > div.header > a.avatar,
+.activity-feed 
+> div
+> div.wrap 
+> div.text 
+> div.header 
+> a.avatar,
+.activity-entry.preview.activity-text
+> div
+> div.text 
+> div.header
+> a.avatar,
 #nav > div.wrap > div.user > div > div.avatar {
 background-color: rgb(var(--color-foreground-grey));
     border-radius: 50px;
@@ -434,7 +468,12 @@ background-color: rgb(var(--color-foreground-grey));
     Remove some hoh features (Sorry hoh)
 ===============================================*/
 
-.activity-manga_list > div > div > div > div > .title, .hohPinned .list .title[href^="/manga/"] {
+.activity-manga_list 
+> div
+> div
+> div
+> div 
+> .title, .hohPinned .list .title[href^="/manga/"] {
     color: rgb(var(--color-blue)) !important;
 }
 
@@ -475,12 +514,15 @@ background-color: rgb(var(--color-foreground-grey));
     margin-left: 10px;
 }
 
-.overview .favourites > .favourites-wrap {
+.overview .favourites 
+> .favourites-wrap {
     width: 480px;
 }
 
-.activity-message .wrap > .actions,
-.activity-text .wrap > .actions {
+.activity-message .wrap 
+> .actions,
+.activity-text .wrap 
+> .actions {
     right: 0;
     bottom: 0;
     font-size: 1.35rem;
@@ -522,7 +564,10 @@ background-color: rgb(var(--color-foreground-grey));
 
 /* Activity Title-overflow fixed */
 @media (min-width: 1540px) {
-.list.small > div > div.status > a {
+.list.small 
+    > div
+    > div.status
+    > a {
     white-space: nowrap;
     width: 230px;
     overflow: hidden;
@@ -531,13 +576,29 @@ background-color: rgb(var(--color-foreground-grey));
   }
 }
 
-.activity-anime_list .wrap:hover .list.small > div > div.status > a ,
-.activity-manga_list .wrap:hover .list.small > div > div.status > a {
+.activity-anime_list .wrap:hover .list.small 
+> div
+> div.status 
+> a ,
+.activity-manga_list .wrap:hover 
+.list.small 
+> div 
+> div.status 
+> a {
     white-space: normal;
 }
 
-.full-width.activity-anime_list > .wrap > .list.small > div > div.status > a,
-.full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
+.full-width.activity-anime_list 
+> .wrap 
+> .list.small 
+> div 
+> div.status 
+> a,
+.full-width.activity-manga_list 
+> .wrap > .list.small 
+> div 
+> div.status 
+> a {
     width: 600px;
 }
 
@@ -618,8 +679,16 @@ background-color: rgb(var(--color-foreground-grey));
     border-radius:  0!important;
  }
 
-.section > .stats-wrap > .list-stats:nth-child(2) .stat:nth-child(2) .value,
-.section > .stats-wrap > .list-stats:nth-child(1) .stat:nth-child(2) .value {
+.section 
+> .stats-wrap 
+> .list-stats:nth-child(2) 
+.stat:nth-child(2) 
+.value,
+.section 
+> .stats-wrap 
+> .list-stats:nth-child(1) 
+.stat:nth-child(2) 
+.value {
     display: flex;
     color: rgb(var(--color-text-lighter));
 }
@@ -705,7 +774,10 @@ background-color: rgb(var(--color-foreground-grey));
     Modified HohPinned
 ===============================================*/
 
-.hohPinned.activity-text > div > div.text > div.header {
+.hohPinned.activity-text 
+> div 
+> div.text 
+> div.header {
 display: none !important;
 }
 
@@ -721,7 +793,11 @@ display: none !important;
 display: none !important;
 }
 
-.hohPinned.activity-text > div > div.text > div.activity-markdown > div {
+.hohPinned.activity-text 
+> div 
+> div.text 
+> div.activity-markdown 
+> div {
     margin-bottom: 0 !important;
 }
 
@@ -738,7 +814,12 @@ a.favourite.media.hohExtraFav {
 }
 
 /* My Waifu Sinon Crown */
-.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):after {
+.content.container
+> div 
+> div:nth-child(1) 
+> div:nth-child(6) 
+> div 
+> a:nth-child(1):after {
     content: '';
     mask: var(--sinon-owner-icon) no-repeat 50% 50%;
     -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
@@ -757,7 +838,9 @@ a.favourite.media.hohExtraFav {
     FOOTER PARTICLE BACKGROUND
 ===============================================*/
 
-#app > div.wrap > div {
+#app 
+> div.wrap 
+> div {
     background: var(--sinon-footer-particles) no-repeat center/100% !important;
     width: auto;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
@@ -767,7 +850,14 @@ a.favourite.media.hohExtraFav {
     REMOVED MULTIPLE HOH PINNED BUG
 ===============================================*/
 
-.page-content > div > div.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div:nth-child(2) > div > div.text {
+.page-content 
+> div 
+> div.content.container 
+> div > div:nth-child(2) 
+> div.activity-feed-wrap 
+> div:nth-child(2) 
+> div 
+> div.text {
     display: none;
 }
 
@@ -792,7 +882,9 @@ a.favourite.media.hohExtraFav {
     animation-duration: .5s;
 }
 
-.page-content > div > div.content.container > div > div:nth-child(1) {
+.page-content > div 
+> div.content.container > div
+> div:nth-child(1) {
     animation: fadeInLeft;
     animation-duration: .5s;
     animation-iteration-count: 1;
