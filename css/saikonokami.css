@@ -309,7 +309,7 @@ padding-top: 65px;
 }
 
 .header-wrap .actions .nav-btn {
-    background: rgb(var(--sinon-gray));
+    background: rgb(var(--sinon-light-gray));
     margin-bottom: 8px;
     border-radius: 20px;
     width: 200px;
