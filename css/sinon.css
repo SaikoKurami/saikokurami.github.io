@@ -2,10 +2,21 @@
 /*
     Owned by Chris (SaikoKurami)
     * https//anilist.co/user/SaikoKurami
-    (c) 2021 - Sinon Theme Custom CSS V.1.0.9
+    (c) 2021 - Sinon Custom CSS V.1.0.9
     
     Remember one of the Commandments
     "Thou shall not steal"
+
+    Sinon CSS Categorized by:
+    > Site Theme
+    > Body Modification
+    > Top Navigation
+    > Profile Header
+    > Overview
+    > Removed
+    > Added Features
+    > Animations
+
 */ 
 
 /*import fonts and animations*/
@@ -302,7 +313,7 @@ body .overview .favourite.studio,
 }
 
 /*===============================================
-    Profile Banner
+    Profile Header
 ===============================================*/
 
 /*profile avatar*/
@@ -412,81 +423,6 @@ display: none;
     font-size: 1rem;
     color: rgb(var(--color-white));
     font-weight: lighter;
-}
-
-/*===============================================
-    Activity Users Profile
-===============================================*/
-
-/* Users Icon */
-a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after {
-    content: '';
-    mask: var(--sinon-owner-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
-    mask-size: cover;
-}
-
-.text 
-> .header
-> .name::after, .reply 
-> .header
-> .name::after {
-    content: '';
-    mask: var(--sinon-friends-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-friends-icon) no-repeat 50% 50%;
-    mask-size: cover;
-    -webkit-mask-size: auto;
-    position: inherit;
-    padding: 10px 8px;
-    background-color: rgb(var(--sinon-gray));
-    margin-left: 8px;
-}
-
-/* Change name spacing and color */
-a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
-    color: rgb(var(--sinon-cyan));
-    letter-spacing: 0.03em;
-}
-
-.activity-feed 
-> div
-> div.wrap 
-> div.text 
-> div.header 
-> a.avatar,
-.activity-entry.preview.activity-text
-> div
-> div.text 
-> div.header
-> a.avatar,
-#nav > div.wrap > div.user > div > div.avatar {
-background-color: rgb(var(--color-foreground-grey));
-    border-radius: 50px;
-}
-
-/*===============================================
-    Remove some hoh features (Sorry hoh)
-===============================================*/
-
-.activity-manga_list 
-> div
-> div
-> div
-> div 
-> .title, .hohPinned .list .title[href^="/manga/"] {
-    color: rgb(var(--color-blue)) !important;
-}
-
-.hohDownload {
-    display: none;
-}
-
-.hohScore {
-    display: none;
-}
-
-.hohRewatchSuffix {
-    display: none;
 }
 
 /*===============================================
@@ -602,9 +538,53 @@ background-color: rgb(var(--color-foreground-grey));
     width: 600px;
 }
 
-/*===============================================
-    Stats
-===============================================*/
+/*Activity Users Profile*/
+a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after {
+    content: '';
+    mask: var(--sinon-owner-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
+    mask-size: cover;
+}
+
+.text 
+> .header
+> .name::after, .reply 
+> .header
+> .name::after {
+    content: '';
+    mask: var(--sinon-friends-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--sinon-friends-icon) no-repeat 50% 50%;
+    mask-size: cover;
+    -webkit-mask-size: auto;
+    position: inherit;
+    padding: 10px 8px;
+    background-color: rgb(var(--sinon-gray));
+    margin-left: 8px;
+}
+
+/* Change name spacing and color */
+a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
+    color: rgb(var(--sinon-cyan));
+    letter-spacing: 0.03em;
+}
+
+.activity-feed 
+> div
+> div.wrap 
+> div.text 
+> div.header 
+> a.avatar,
+.activity-entry.preview.activity-text
+> div
+> div.text 
+> div.header
+> a.avatar,
+#nav > div.wrap > div.user > div > div.avatar {
+background-color: rgb(var(--color-foreground-grey));
+    border-radius: 50px;
+}
+
+/*Stats=======================================*/
 
 .stats-wrap[data-v-5c30286e]{
     margin-right: 0us activity%;
@@ -727,9 +707,7 @@ background-color: rgb(var(--color-foreground-grey));
     background-color: rgba(var(--color-text-light));
 }
 
-/*===============================================
-    Anime list and manga list cover bugfixed
-===============================================*/
+/*Anime list and manga list cover bugfixed*/
 
 .lists > div > div > div.list-entries > div > div.cover {
     max-height: 250px;
@@ -754,7 +732,48 @@ background-color: rgb(var(--color-foreground-grey));
 }
 
 /*===============================================
-    DISCORD SERVER
+    Removed
+===============================================*/
+
+.activity-manga_list 
+> div
+> div
+> div
+> div 
+> .title, .hohPinned .list .title[href^="/manga/"] {
+    color: rgb(var(--color-blue)) !important;
+}
+
+.hohDownload {
+    display: none;
+}
+
+.hohScore {
+    display: none;
+}
+
+.hohRewatchSuffix {
+    display: none;
+}
+
+.page-content 
+> div 
+> div.content.container 
+> div > div:nth-child(2) 
+> div.activity-feed-wrap 
+> div:nth-child(2) 
+> div 
+> div.text {
+    display: none;
+}
+
+/* Change History level 3 color */
+.history-day.lv-3 {
+    background: rgb(var(--sinon-dark-gray)) !important;
+}
+
+/*===============================================
+    Added Features
 ===============================================*/
 
 .about a:nth-child(17)::after {
@@ -770,9 +789,7 @@ background-color: rgb(var(--color-foreground-grey));
     z-index: 20;
 }
 
-/*===============================================
-    Modified HohPinned
-===============================================*/
+/*Modified HohPinned*/
 
 .hohPinned.activity-text 
 > div 
@@ -801,9 +818,7 @@ display: none !important;
     margin-bottom: 0 !important;
 }
 
-/*===============================================
-    SINON COVER
-===============================================*/
+/*SINON COVER*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
     background-image: var(--sinon-waifu) !important;
@@ -834,9 +849,7 @@ a.favourite.media.hohExtraFav {
     transform: rotate(333deg);
 }
 
-/*===============================================
-    FOOTER PARTICLE BACKGROUND
-===============================================*/
+/*FOOTER PARTICLE BACKGROUND*/
 
 #app 
 > div.wrap 
@@ -844,26 +857,6 @@ a.favourite.media.hohExtraFav {
     background: var(--sinon-footer-particles) no-repeat center/100% !important;
     width: auto;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
-}
-
-/*===============================================
-    REMOVED MULTIPLE HOH PINNED BUG
-===============================================*/
-
-.page-content 
-> div 
-> div.content.container 
-> div > div:nth-child(2) 
-> div.activity-feed-wrap 
-> div:nth-child(2) 
-> div 
-> div.text {
-    display: none;
-}
-
-/* Change History level 3 color */
-.history-day.lv-3 {
-    background: rgb(var(--sinon-dark-gray)) !important;
 }
 
 /*===============================================
