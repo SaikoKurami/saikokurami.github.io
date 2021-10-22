@@ -677,16 +677,16 @@ background-color: rgb(var(--color-foreground-grey));
 }
 
 .medialist.cards .entry-card .title {
-    background: rgba(var(--color-foreground),.8);
-    backdrop-filter: blur(2px);
+    background: rgba(var(--color-foreground),.8) !important;
+    backdrop-filter: blur(2px) !important;
 }
 
 .medialist.cards .entry-card .edit {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--sinon-cyan)) !important;
 }
 
 .tooltip {
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px) !important;
 }
 
 /*===============================================
