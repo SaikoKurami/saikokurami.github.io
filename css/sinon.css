@@ -676,6 +676,19 @@ background-color: rgb(var(--color-foreground-grey));
     background: rgb(var(--sinon-cyan));
 }
 
+.medialist.cards .entry-card .title {
+    background: rgba(var(--color-foreground),.8);
+    backdrop-filter: blur(2px);
+}
+
+.medialist.cards .entry-card .edit {
+    background: rgb(var(--sinon-cyan));
+}
+
+.tooltip {
+    backdrop-filter: blur(2px);
+}
+
 /*===============================================
     DISCORD SERVER
 ===============================================*/
