@@ -460,7 +460,7 @@ background-color: rgb(var(--color-foreground-grey));
 ===============================================*/
 
 .user .overview {
-    grid-template-columns: 500px auto!important;
+    grid-template-columns: 480px auto!important;
 }
 
 .history-day {
