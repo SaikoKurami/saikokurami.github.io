@@ -340,7 +340,7 @@ display: none;
 }
 
 .header-wrap .actions .nav-btn {
-    background: rgb(var(--sinon-gray));
+    background: rgb(var(--sinon-light-gray));
     margin-bottom: 8px;
     border-radius: 20px;
     width: 200px;
@@ -382,7 +382,7 @@ display: none;
 }
 
 .mod-badge-wrap.follower-badge {
-    background: rgb(var(--sinon-light-gray));
+    background: rgb(var(--sinon-cyan));
     padding: 8px 8px 7px 8px;
     margin-bottom: 33px;
     margin-left: -11px;
