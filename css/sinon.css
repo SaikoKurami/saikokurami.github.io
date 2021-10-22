@@ -382,7 +382,7 @@ display: none;
 }
 
 .mod-badge-wrap.follower-badge {
-    background: rgb(119, 198, 211);
+    background: rgb(var(--sinon-light-gray));
     padding: 8px 8px 7px 8px;
     margin-bottom: 33px;
     margin-left: -11px;
