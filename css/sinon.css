@@ -820,7 +820,7 @@ display: none !important;
     margin-bottom: 0 !important;
 }
 .activity-entry.activity-text:after {
-    content: 'aaa';
+    content: '';
     position: absolute;
     z-index: 1;
     background: rgb(var(--sinon-transparent));
