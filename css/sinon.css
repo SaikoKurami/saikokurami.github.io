@@ -118,8 +118,7 @@
 
 /*Fixed bio scrollbar*/
 .about .content-wrap::-webkit-scrollbar {
-    width: 0px!important;
-    background: rgb(var(--sinon-transparent));
+display: none !important;
 }
     
 .text .markdown::-webkit-scrollbar {
