@@ -819,6 +819,16 @@ display: none !important;
 > div {
     margin-bottom: 0 !important;
 }
+.activity-entry.activity-text:after {
+    content: 'aaa';
+    position: absolute;
+    z-index: 1;
+    background: rgb(var(--sinon-transparent));
+    bottom: 26px;
+    left: 0%;
+    right: 0px;
+    min-height: 300px;
+}
 
 /*SINON COVER*/
 
