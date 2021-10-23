@@ -819,7 +819,7 @@ display: none !important;
 > div {
     margin-bottom: 0 !important;
 }
-.activity-entry.activity-text:after {
+.hohPinned.activity-text:after {
     content: '';
     position: absolute;
     z-index: 1;
