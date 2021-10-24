@@ -550,6 +550,10 @@ background-color: rgb(var(--color-foreground-grey));
     border-radius:  0!important;
  }
 
+.stats-wrap > div:nth-child(1) > div.footer {
+border-radius: 0 0 0 4px;
+}
+
 .section 
 > .stats-wrap 
 > .list-stats:nth-child(2) 
