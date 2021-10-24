@@ -299,14 +299,6 @@ display: none;
     color: rgb(var(--sinon-dirty-white));
 }
 
-.header-wrap .nav-wrap .nav .link:nth-child(7),
-.header-wrap .nav-wrap .nav .link:nth-child(8) {
-    width: 0;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-}
-
 .mod-badge-wrap.follower-badge {
     background: rgb(var(--sinon-cyan));
     padding: 8px 8px 7px 8px;
@@ -769,6 +761,15 @@ body .overview .favourite.studio,
 /* Hide Genre */
 .desktop:nth-of-type(3) {
     height: 0;
+    visibility: hidden;
+}
+
+/*link under header-wrap*/
+.header-wrap .nav-wrap .nav .link:nth-child(7),
+.header-wrap .nav-wrap .nav .link:nth-child(8) {
+    width: 0;
+    margin: 0;
+    padding: 0;
     visibility: hidden;
 }
 
