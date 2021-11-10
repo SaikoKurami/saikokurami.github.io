@@ -808,7 +808,7 @@ body .overview .favourite.studio,
     bottom: -50px;
     left: -40px;
     z-index: 20;
-    animation: spin 30s infinite;
+    animation: spin 30s infinite linear;
 }
 @keyframes spin {
   0% {
