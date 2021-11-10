@@ -795,6 +795,30 @@ body .overview .favourite.studio,
     z-index: 20;
 }
 
+.about a:nth-child(17)::before {
+    content: "";
+    background-image: url(https://i.imgur.com/xEATN2W.png);
+    background-size: contain;
+    width: 222px;
+    height: 239px;
+    display: block;
+    position: fixed;
+    bottom: -95px;
+    left: -43px;
+    z-index: 20;
+    animation: spin 30s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 /*Modified HohPinned*/
 
 .hohPinned.activity-text 
@@ -900,6 +924,7 @@ a.favourite.media.hohExtraFav {
     animation-iteration-count: 1;
 }
 
+.about a:nth-child(17)::before,
 .about a:nth-child(17)::after {
    animation: fadeInBottomLeft;
    animation-duration: 1s;
