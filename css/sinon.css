@@ -794,6 +794,7 @@ body .overview .favourite.studio,
     bottom: 0;
     left: 0;
     z-index: 20;
+    filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
 .about a:nth-child(17)::before {
