@@ -924,7 +924,6 @@ a.favourite.media.hohExtraFav {
     animation-iteration-count: 1;
 }
 
-.about a:nth-child(17)::before,
 .about a:nth-child(17)::after {
    animation: fadeInBottomLeft;
    animation-duration: 1s;
