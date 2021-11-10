@@ -47,6 +47,7 @@
     --sinon-anime-icon: url(https://files.catbox.moe/jyg6jn.svg);
     --sinon-manga-icon: url(https://files.catbox.moe/y3fyrt.svg);
     --sinon-stray-guild: url(https://i.imgur.com/CWU2GsB.png);
+    --sinon-techno-circle: url(https://i.imgur.com/zg7lMtP.png);
 }
 
 /*===============================================
@@ -794,21 +795,20 @@ body .overview .favourite.studio,
     left: 0;
     z-index: 20;
 }
-/*
+
 .about a:nth-child(17)::before {
     content: "";
-    background-image: url(https://i.imgur.com/82Hf87B.png);
+    background-image: var(--sinon-techno-circle);
     background-size: contain;
     width: 222px;
     height: 239px;
     display: block;
     position: fixed;
-    bottom: -95px;
-    left: -43px;
+    bottom: -50px;
+    left: -40px;
     z-index: 20;
     animation: spin 30s infinite;
 }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -817,7 +817,7 @@ body .overview .favourite.studio,
     transform: rotate(360deg);
   }
 }
-*/
+
 
 /*Modified HohPinned*/
 
