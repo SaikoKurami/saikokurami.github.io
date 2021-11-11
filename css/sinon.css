@@ -42,6 +42,7 @@
     --sinon-footer-particles: url(https://i.imgur.com/3JjhuIh.gif);
     --sinon-waifu: url(https://i.imgur.com/rjUgKbr.png);
     /*Added Icons feature*/
+    --sinon-anilist-logo: url(https://files.catbox.moe/nyzorc.svg);
     --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
     --sinon-friends-icon: url(https://files.catbox.moe/cnsbi0.svg);
     --sinon-anime-icon: url(https://files.catbox.moe/jyg6jn.svg);
@@ -919,6 +920,10 @@ backdrop-filter: blur(2px) !important;
 
 .site-theme-dark .quick-search {
     background: rgba(18,22,28,0.5);
+}
+
+.logo > img {
+    content: var(--sinon-anilist-logo);
 }
 
 /*===============================================
