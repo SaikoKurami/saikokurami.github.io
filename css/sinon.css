@@ -909,6 +909,18 @@ a.favourite.media.hohExtraFav {
 backdrop-filter: blur(2px) !important;
 }
 
+#nav > div.quick-search.visible > div.input > svg {
+    color: rgb(var(--sinon-cyan));
+}
+
+.quick-search.visible {
+    backdrop-filter: blur(2px) !important;
+}
+
+.site-theme-dark .quick-search {
+    background: rgba(18,22,28,0.5);
+}
+
 /*===============================================
     Animations
 ===============================================*/
