@@ -55,7 +55,10 @@
     Site Theme (Force Dark Theme)
 =================================================*/
 
-:root, body, .site-theme-dark, .site-theme-contrast {
+:root, 
+body, 
+.site-theme-dark, 
+.site-theme-contrast {
     --color-background: 11,22,34 !important;
     --color-foreground: 21,31,46 !important;
     --color-foreground-grey: 15,22,31 !important;
