@@ -986,3 +986,8 @@ backdrop-filter: blur(2px) !important;
 animation: zoomIn;
     animation-duration: 1s;
 }
+
+.progress .bar {
+    animation: slideInLeft;
+    animation-duration: 2s;
+}
