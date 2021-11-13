@@ -969,6 +969,19 @@ backdrop-filter: blur(2px) !important;
     content: var(--sinon-anilist-logo);
 }
 
+@media (min-width: 1040px) and (max-width: 1540px) {
+.about a:nth-child(7)::before {
+    content: 'Unzoom to 75% or 67% for best experience.';
+    display: block;
+    font-size: 1rem;
+    pointer-events: none;
+    position: fixed;
+    bottom: 5px;
+    right: 14px;
+    z-index: 20;
+    }
+}
+
 /*===============================================
     Animations
 ===============================================*/
