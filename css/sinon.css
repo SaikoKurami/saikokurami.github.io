@@ -934,8 +934,8 @@ backdrop-filter: blur(2px) !important;
 ===============================================*/
 
 .activity-entry {
-    animation: fadeInRight;
-    animation-duration: 1s;
+    animation: zoomIn;
+    animation-duration: .5s;
 }
 
 .overview,
