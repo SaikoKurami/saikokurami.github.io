@@ -323,7 +323,14 @@ display: none;
 
 /*===============================================
     Overview
-===============================================*/
+===============================================*/    
+.time .action.active[data-v-1bf2cf4e] {
+    color: rgb(var(--sinon-cyan));
+}
+
+.stats-wrap {
+  transform: scale(1) !important;
+}
 
 .user .overview {
     grid-template-columns: 480px auto!important;
@@ -403,6 +410,7 @@ display: none;
     background: linear-gradient(90deg, rgba(2,0,36,0) -3%, rgba(19,28,45,0.6558998599439776) 10%, rgba(21,31,46,0.9836309523809523) 19%, rgba(21,31,46,1) 100%);
 }
 
+/*Activity cover background*/
 @media (min-width: 1540px) {
     .activity-feed > div > div.wrap > div.list.small > a::before {
     content: "";
@@ -422,14 +430,6 @@ display: none;
     .activity-anime_list .wrap, .activity-manga_list .wrap {
     background: linear-gradient(90deg, rgba(2,0,36,0) -3%, rgba(19,28,45,0.6558998599439776) 12%, rgba(21,31,46,0.9836309523809523) 24%, rgba(21,31,46,1) 100%);
     }
-}
-        
-.time .action.active[data-v-1bf2cf4e] {
-    color: rgb(var(--sinon-cyan));
-}
-
-.stats-wrap {
-  transform: scale(1) !important;
 }
 
 /* Activity Title-overflow fixed */
