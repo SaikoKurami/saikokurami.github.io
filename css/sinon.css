@@ -408,7 +408,7 @@ display: none;
 
 .activity-entry.full-width.activity-anime_list > div.wrap,
 .activity-entry.full-width.activity-manga_list > div.wrap {
-    background: linear-gradient(90deg, rgba(2,0,36,0) -3%, rgba(19,28,45,0.6558998599439776) 5%, rgba(21,31,46,0.9836309523809523) 20%, rgba(21,31,46,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(19,28,45,0.6559) 10%, rgba(21,31,46,0.999631) 20%, rgba(21,31,46,1) 100%);
 }
 
 .activity-entry.full-width.activity-manga_list > div.wrap > div.list.small > a> a::before,
@@ -428,22 +428,22 @@ display: none;
 /*Activity cover background*/
 @media (min-width: 1540px) {
     .activity-feed > div > div.wrap > div.list.small > a::before {
-    content: "";
+     content: "";
     background: inherit;
-    width: 21%;
+    width: 20%;
     height: 113%;
     display: block;
     z-index: -3;
     position: absolute;
     top: -5px;
-    left: 16px;
+    left: 25px;
     -webkit-filter: blur(1.7px);
     }
 }
 
 @media (min-width: 1540px) {
     .activity-anime_list .wrap, .activity-manga_list .wrap {
-    background: linear-gradient(90deg, rgba(2,0,36,0) -3%, rgba(19,28,45,0.6558998599439776) 12%, rgba(21,31,46,0.9836309523809523) 24%, rgba(21,31,46,1) 100%);
+        background: linear-gradient(90deg, rgba(2,0,36,0) -2%, rgba(19,28,45,0.6558998599439776) 15%, rgba(21,31,46,0.983631) 25%, rgba(21,31,46,1) 100%);
     }
 }
 
