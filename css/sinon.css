@@ -517,6 +517,27 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     margin-left: 8px;
 }
 
+.activity-message > .wrap > .time, .activity-text > .wrap > .time {
+    left: 72px;
+    top: 43px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text > div.header > a.name {
+    display: inline-block;
+    height: 40px;
+    line-height: 30px;
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+.donator-badge {
+    display: none;
+}
+
 /* Change name spacing and color */
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
     color: rgb(var(--sinon-cyan));
