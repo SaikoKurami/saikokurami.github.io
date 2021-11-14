@@ -374,6 +374,8 @@ display: none;
 > .actions, .activity-text .wrap 
 > .actions {
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media (min-width: 1540px) {
