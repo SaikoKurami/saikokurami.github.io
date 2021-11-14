@@ -324,6 +324,12 @@ display: none;
     color: rgb(var(--sinon-cyan));
 }
 
+.time .action.active[data-v-e4d6521c] {
+    color: rgba(var(--sinon-cyan));
+    animation: swing;
+    animation-duration: 1s;
+}
+
 .stats-wrap {
   transform: scale(1) !important;
 }
