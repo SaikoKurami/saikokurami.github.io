@@ -540,12 +540,16 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 .activity-message > .wrap > .time, .activity-text > .wrap > .time {
     left: 72px;
     top: 43px;
-    font-weight: 300;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
 }
+
+.time {
+    font-weight: 700;
+}
+
 .text > div.header > a.name {
     display: inline-block;
     height: 40px;
@@ -1110,3 +1114,4 @@ animation: zoomIn;
     animation: slideInLeft;
     animation-duration: 2s;
 }
+
