@@ -320,11 +320,11 @@ display: none;
 /*===============================================
     Overview
 ===============================================*/    
-.time .action.active[data-v-1bf2cf4e] {
+.time .action.active[data-v-77aecf0c] {
     color: rgb(var(--sinon-cyan));
 }
 
-.time .action.active[data-v-e4d6521c] {
+.time .action.active[data-v-77aecf0c] {
     color: rgba(var(--sinon-cyan));
     animation: swing;
     animation-duration: 1s;
