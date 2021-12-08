@@ -487,6 +487,14 @@ display: none;
   }
 }
 
+/*remove Guild feature on 1280px screen*/
+@media (max-width: 1280px) {
+    .about a:nth-child(17)::after,
+    .about a:nth-child(17)::before {
+        width: 0 !important;
+    }
+}
+        
 .activity-anime_list .wrap:hover .list.small 
 > div
 > div.status 
