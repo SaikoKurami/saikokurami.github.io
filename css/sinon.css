@@ -566,8 +566,12 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     vertical-align: top;
 }
 
-.header > div.donator-badge {
-    display: none;
+.donator-badge[data-v-77aecf0c] {
+    display: block;
+    overflow: hidden;
+    right: 18px;
+    top: 16px !important;
+    position: absolute !important;
 }
 
 /* Change name spacing and color */
