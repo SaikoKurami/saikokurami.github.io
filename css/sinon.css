@@ -608,29 +608,6 @@ background-color: rgb(var(--color-foreground-grey));
     content: "S P O I L E R";
     padding: 0 16px;
 }
-@media (min-width: 1540px) {
-.load-more::before {
-    content: '';
-    -webkit-mask: var(--sinon-pointer-right) no-repeat 50% 50%;
-    -webkit-mask-size: auto;
-    position: inherit;
-    padding: 5px 9px;
-    background-color: rgb(var(--sinon-cyan));
-    margin-right: 330px;
-    }
-}
-
-@media (min-width: 1540px) {
-.load-more::after {
-    content: '';
-    -webkit-mask: var(--sinon-pointer-left) no-repeat 50% 50%;
-    -webkit-mask-size: auto;
-    position: inherit;
-    padding: 5px 9px;
-    background-color: rgb(var(--sinon-cyan));
-    margin-left: 330px;
-    }
-}
 
 .load-more::before {
     content: '';
@@ -650,6 +627,19 @@ background-color: rgb(var(--color-foreground-grey));
     padding: 5px 9px;
     background-color: rgb(var(--sinon-cyan));
     margin-left: 190px;
+}
+
+@media (min-width: 1540px) {
+.load-more::before {
+    margin-right: 330px !important;
+    }
+}
+
+@media (min-width: 1540px) {
+.load-more::after {
+    content: '';
+    margin-left: 330px !important;
+    }
 }
 
 /*Stats=======================================*/
