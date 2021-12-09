@@ -567,6 +567,8 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 }
 
 .donator-badge[data-v-77aecf0c] {
+    color: rgb(var(--sinon-cyan));
+    background: none !important;
     display: block;
     overflow: hidden;
     right: 18px;
