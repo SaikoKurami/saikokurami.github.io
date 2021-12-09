@@ -598,6 +598,14 @@ background-color: rgb(var(--color-foreground-grey));
     border-radius: 50px;
 }
 
+/*Spoiler*/
+.markdown .markdown-spoiler:before {
+    color: rgb(var(--sinon-cyan));
+    background: rgb(var(--color-background));
+    border-radius: 3px;
+    content: "S P O I L E R";
+    padding: 0 16px;
+}
 /*Stats=======================================*/
 
 .stats-wrap[data-v-5c30286e]{
