@@ -45,6 +45,8 @@
     --sinon-manga-icon: url(https://files.catbox.moe/y3fyrt.svg);
     --sinon-stray-guild: url(https://i.imgur.com/M3LznFH.png);
     --sinon-techno-circle: url(https://i.imgur.com/fbravZD.png);
+    --sinon-pointer-right: url(https://files.catbox.moe/xzed23.svg);
+    --sinon-pointer-left: url(https://files.catbox.moe/umjbp6.svg);
 }
 
 /*===============================================
@@ -606,6 +608,27 @@ background-color: rgb(var(--color-foreground-grey));
     content: "S P O I L E R";
     padding: 0 16px;
 }
+
+.load-more::before {
+    content: '';
+    -webkit-mask: var(--sinon-pointer-right) no-repeat 50% 50%;
+    -webkit-mask-size: auto;
+    position: inherit;
+    padding: 5px 9px;
+    background-color: rgb(var(--sinon-cyan));
+    margin-right: 330px;
+}
+
+.load-more::after {
+    content: '';
+    -webkit-mask: var(--sinon-pointer-left) no-repeat 50% 50%;
+    -webkit-mask-size: auto;
+    position: inherit;
+    padding: 5px 9px;
+    background-color: rgb(var(--sinon-cyan));
+    margin-left: 330px;
+}
+
 /*Stats=======================================*/
 
 .stats-wrap[data-v-5c30286e]{
