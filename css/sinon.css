@@ -609,6 +609,16 @@ background-color: rgb(var(--color-foreground-grey));
     padding: 0 16px;
 }
 
+.scroller:hover .load-more:before {
+    margin-right: 40px !important;
+    transition: 1s;
+}
+
+.scroller:hover .load-more:after {
+    margin-left: 40px !important;
+    transition: 1s;
+}
+
 .load-more::before {
     content: '';
     -webkit-mask: var(--sinon-pointer-right) no-repeat 50% 50%;
@@ -617,6 +627,7 @@ background-color: rgb(var(--color-foreground-grey));
     padding: 5px 9px;
     background-color: rgb(var(--sinon-cyan));
     margin-right: 190px;
+    transition: 1s;
 }
 
 .load-more::after {
@@ -627,6 +638,7 @@ background-color: rgb(var(--color-foreground-grey));
     padding: 5px 9px;
     background-color: rgb(var(--sinon-cyan));
     margin-left: 190px;
+    transition: 1s;
 }
 
 @media (min-width: 1540px) {
