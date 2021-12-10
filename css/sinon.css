@@ -1184,3 +1184,7 @@ animation: zoomIn;
     animation: slideInLeft;
     animation-duration: 2s;
 }
+
+.scroller::hover {
+    color: rgb(var(--sinon-cyan));
+}
