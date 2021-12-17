@@ -1059,7 +1059,7 @@ display: none !important;
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
     background-image: var(--sinon-waifu) !important;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
