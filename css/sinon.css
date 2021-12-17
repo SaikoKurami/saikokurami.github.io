@@ -1058,6 +1058,12 @@ display: none !important;
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
     background-image: var(--sinon-waifu) !important;
+    transition: 0.5s;
+}
+
+.content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
+    background-image: url(https://c.tenor.com/TK3GGfulZm8AAAAC/sword-art.gif) !important;
+    transition: 0.5s;
 }
 
 a.favourite.media.hohExtraFav {
