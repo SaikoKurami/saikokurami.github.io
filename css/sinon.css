@@ -37,6 +37,7 @@
     --sinon-avatar: url(https://i.imgur.com/PLTCAq0.gif);
     --sinon-footer-particles: url(https://i.imgur.com/3JjhuIh.gif);
     --sinon-waifu: url(https://i.imgur.com/rjUgKbr.png);
+    --sinon-gif: url(https://i.imgur.com/nCoRLt7.gif);
     /*Added Icons feature*/
     --sinon-anilist-logo: url(https://files.catbox.moe/nyzorc.svg);
     --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
@@ -1062,7 +1063,7 @@ display: none !important;
 }
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
-    background-image: url(https://c.tenor.com/TK3GGfulZm8AAAAC/sword-art.gif) !important;
+    background-image: var(--sinon-gif) !important;
     transition: 0.5s;
 }
 
