@@ -970,6 +970,20 @@ body .overview .favourite.studio,
     display: none !important;
 }
 
+.medialist.cards .entry-card .title {
+    width: 150px ;
+    white-space: nowrap !important;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis ;
+    transition: 1s;
+}
+
+.medialist.cards .entry-card .title:hover {
+    white-space: normal !important;
+    transition: 1s;
+}
+
 /*===============================================
     Added Features
 ===============================================*/
