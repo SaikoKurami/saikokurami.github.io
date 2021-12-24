@@ -195,6 +195,10 @@ display: none !important;
     color: rgb(var(--color-text-lighter));
 }
 
+#nav > div.wrap > div.user > a {
+    background: rgb(var(--sinon-cyan)) !important;
+}
+
 .nav .wrap .search:hover {
     box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--sinon-dirty-white));
     padding: 7px;
