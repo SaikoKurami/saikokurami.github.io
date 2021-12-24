@@ -360,10 +360,6 @@ display: none;
     border: 5px solid rgb(var(--color-foreground));
 }
 
-.favourites.preview .favourites-wrap {
-    margin-left: 10px;
-}
-
 .overview .favourites 
 > .favourites-wrap {
     width: 480px;
