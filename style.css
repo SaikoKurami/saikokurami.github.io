@@ -34,8 +34,6 @@ body{
     margin-top: 5%;
     color: white;
     font-family: 'Poppins', Overpass, sans-serif;
-    animation: backInUp;
-    animation-duration: 1s;
 }
 .header {
     width: 900px;
