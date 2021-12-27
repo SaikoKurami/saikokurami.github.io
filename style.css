@@ -15,7 +15,7 @@
     --sinon-transparent: rgb(0 0 0 / 0%);
     --color-background: 11, 22, 34 !important;
     --color-foreground: 21, 31, 46 !important;
-    --sinon-background: url("url(https://i.imgur.com/fzpFvaS.png);");
+    --sinon-background: url(https://i.imgur.com/fzpFvaS.png);
     --color-text-lighter: 133,150,165!important;
     --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
 }
