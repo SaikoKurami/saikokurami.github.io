@@ -3,7 +3,19 @@
     padding: 0;
     text-decoration: none;
 }
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 3px;
+    background: rgb(var(--sinon-transparent));
+}
 
+::-webkit-scrollbar-corner {
+    background: rgb(var(--sinon-cyan));
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--sinon-cyan));
+}
 :root{
    /*Color Scheme*/
     --sinon-cyan: 115, 190, 203;
