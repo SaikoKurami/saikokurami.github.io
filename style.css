@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+   /*Color Scheme*/
+    --sinon-cyan: 115, 190, 203;
+    --sinon-gold: 249, 189, 4;
+    --sinon-gray: 40, 56, 77;
+    --sinon-light-gray: 65, 81, 100;
+    --sinon-dark-gray: 40, 56, 77;
+    --sinon-white: 255, 255, 255;
+    --sinon-dirty-white: 219, 219, 219;
+    --sinon-transparent: rgb(0 0 0 / 0%);
+    --color-background: 11, 22, 34 !important;
+    --color-foreground: 21, 31, 46 !important;
+    --sinon-background: url("assets/bg.png");
+    --sinon-banner: url("assets/bg.png");
+    --color-text-lighter: 133,150,165!important;
+    --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
+}
+body{
+ background: rgb(var(--color-background)) var(--sinon-background) center/100% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', Overpass, sans-serif; 
+}
+.profile{
+    width: 980px;
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Poppins', Overpass, sans-serif;
+    animation: backInUp;
+    animation-duration: 1s;
+}
+.header {
+    width: 900px;
+    border-radius: 6px 6px 0 0;
+    height: 120px;
+    z-index: -1;
+    position: absolute;
+    padding: 40px;
+    margin: auto;
+}
+.profile .header:after {
+    background: rgba(31,40,53,.65);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+.box{
+    width: 900px;
+    border-radius: 0 0 6px 6px;
+    background: rgb(var(--color-foreground));
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    color: white;
+    font-family: 'Poppins', Overpass, sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -150px;
+    border: 6px solid rgb(var(--sinon-cyan));
+    transition: 0.5s;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Poppins', Overpass, sans-serif; 
+}
+.box h5{
+    color: rgb(var(--color-text-lighter));
+    font-family: 'Poppins', Overpass, sans-serif;
+    font-weight: 600;
+}
+.box p{
+    margin-top: 12px;
+    font-size: 0.9rem;
+    font-family: 'Poppins', Overpass, sans-serif;
+}
+.box .social{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.box .social a {
+    font-size: 26px;
+    color: rgb(var(--sinon-cyan));
+    background: rgb(var(--color-background));
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    line-height: 48px;
+    overflow: hidden;
+    transition: 0.1s;
+    border:  3px solid rgba(var(--color-foreground));
+}
+.box .social a:before{
+    display: block;
+    
+}
+.box .social span {
+    font-size: 1rem;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+}
+.box .social2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 2px solid rgba(var(--sinon-light-gray), 0.2);
+}
+.box .social2 a {
+    font-size: 26px;
+    color: rgb(var(--sinon-cyan));
+    background: rgb(var(--color-background));
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    line-height: 48px;
+    overflow: hidden;
+    transition: 0.1s;
+    border:  3px solid rgba(var(--color-foreground));
+    margin-bottom: 30px;
+}
+.box .social2 a:before{
+    display: block;
+    
+}
+.box .social2 span{
+    font-size: 1rem;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+}
+.box .social a:hover,
+.box .social2 a:hover {
+    background: rgb(var(--color-foreground));
+    border:  3px solid rgba(var(--sinon-cyan));
+    transform: scale(0.95) !important;
+    transition: 0.5s;
+}
+.box-img:hover{
+    transform: scale(1.1);
+    border: 6px solid rgb(var(--color-background));
+    transition: 1s;
+    background: white !important;
+}
+.box .social-title{
+    padding-top: 20px;
+}
