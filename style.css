@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
+
 :root{
    /*Color Scheme*/
     --sinon-cyan: 115, 190, 203;
@@ -15,7 +16,8 @@
     --sinon-transparent: rgb(0 0 0 / 0%);
     --color-background: 11, 22, 34 !important;
     --color-foreground: 21, 31, 46 !important;
-    --sinon-background: url(https://i.imgur.com/fzpFvaS.png);
+    --sinon-background: url("assets/bg.png");
+    --sinon-banner: url("assets/bg.png");
     --color-text-lighter: 133,150,165!important;
     --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
 }
@@ -31,10 +33,10 @@ body{
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     color: white;
     font-family: 'Poppins', Overpass, sans-serif;
-    animation: fadeInUp;
+    animation: fadeInDown;
     animation-duration: 1s;
 }
 .header {
@@ -66,6 +68,16 @@ body{
     margin-top: 20%;
     color: white;
     font-family: 'Poppins', Overpass, sans-serif;
+}
+.hyper {
+    position: absolute;
+    margin-left: -370px;
+    margin-top: -30px;
+}
+.stray-admin {
+    position: absolute;
+    margin-left: -335px;
+    margin-top: -32px;
 }
 .box-img{
     border-radius: 50%;
@@ -131,7 +143,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: 2px solid rgba(var(--sinon-light-gray), 0.2);
+    
 }
 .box .social2 a {
     font-size: 26px;
@@ -148,8 +160,7 @@ body{
     line-height: 48px;
     overflow: hidden;
     transition: 0.1s;
-    border:  3px solid rgba(var(--color-foreground));
-    margin-bottom: 30px;
+    border: 3px solid rgba(var(--color-foreground));
 }
 .box .social2 a:before{
     display: block;
@@ -179,4 +190,73 @@ body{
 }
 .box .social-title{
     padding-top: 20px;
+}
+.playlist {
+    font-size: 26px;
+    color: rgb(var(--sinon-cyan));
+    width: 885px;
+    height: 110px;
+    margin: 8px;
+    position: relative;
+    display: flex;
+    top: 0px;
+    line-height: 48px;
+    overflow: hidden;
+    transition: 0.1s;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(var(--sinon-light-gray), 0.2);
+}
+ .playlist a {
+    font-size: 26px;
+    color: rgb(var(--sinon-cyan));
+    background: rgb(var(--color-background));
+    width: 900px;
+    height: 90px;
+    border-radius: 8px;
+    margin: 8px;
+    position: relative;
+    display: flex;
+    top: 0px;
+    line-height: 48px;
+    overflow: hidden;
+    transition: 0.1s;
+    border:  3px solid rgba(var(--color-foreground));
+    margin-bottom: 30px;
+}
+.playlist a:hover{
+    background: rgb(var(--color-foreground));
+    border:  3px solid rgba(var(--sinon-cyan));
+    transform: scale(0.95) !important;
+    transition: 0.5s;
+}
+.playlist span {
+    font-size: 1.4rem;
+    text-align: justify;
+    display: absolute;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.playlist h5 {
+    font-size: 0.7rem;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+.playlist h5::after{
+    content: '';
+  mask: url('https://i.imgur.com/XqtidMA.png') no-repeat 50% 50%;
+    -webkit-mask: url('https://i.imgur.com/XqtidMA.png') no-repeat 50% 50%;
+    width: 30px;
+    height: 30px;
+    left: 260px;
+    top: -26px;
+    position: absolute;
+    background-color: rgb(var(--sinon-cyan));
+}
+.box .playlist-title{
+    padding-top: 2px;
 }
