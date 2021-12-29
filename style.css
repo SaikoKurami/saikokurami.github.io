@@ -3,19 +3,6 @@
     padding: 0;
     text-decoration: none;
 }
-/*Scroll bar*/
-::-webkit-scrollbar {
-    width: 3px;
-    background: rgb(var(--sinon-transparent));
-}
-
-::-webkit-scrollbar-corner {
-    background: rgb(var(--sinon-cyan));
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(var(--sinon-cyan));
-}
 :root{
    /*Color Scheme*/
     --sinon-cyan: 115, 190, 203;
@@ -33,6 +20,18 @@
     --color-text-lighter: 133,150,165!important;
     --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
 }
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 3px;
+    background: rgb(var(--sinon-transparent));
+}
+::-webkit-scrollbar-corner {
+    background: rgb(var(--sinon-cyan));
+}
+::-webkit-scrollbar-thumb {
+    width: 3px;
+    background: rgb(var(--sinon-cyan));
+}
 body{
  background: rgb(var(--color-background)) var(--sinon-background) center/100% fixed;
     background-repeat: no-repeat;
@@ -46,7 +45,7 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 2%;
-    color: white;
+    color: rgb(var(--sinon-white));
     font-family: 'Poppins', Overpass, sans-serif;
     animation: fadeInDown;
     animation-duration: 1s;
@@ -75,10 +74,11 @@ body{
     border-radius: 0 0 6px 6px;
     background: rgb(var(--color-foreground));
     padding: 40px;
+    padding-bottom: 30px;
     text-align: center;
     margin: auto;
     margin-top: 20%;
-    color: white;
+    color: rgb(var(--sinon-white));
     font-family: 'Poppins', Overpass, sans-serif;
 }
 .hyper {
@@ -149,7 +149,7 @@ body{
     justify-content: center;
     letter-spacing: 2px;
     font-weight: 600;
-    color: white;
+    color: rgb(var(--sinon-white));
 }
 .box .social2{
     display: flex;
@@ -185,7 +185,7 @@ body{
     justify-content: center;
     letter-spacing: 2px;
     font-weight: 600;
-    color: white;
+    color: rgb(var(--sinon-white));
 }
 .box .social a:hover,
 .box .social2 a:hover {
@@ -198,7 +198,7 @@ body{
     transform: scale(1.1);
     border: 6px solid rgb(var(--color-background));
     transition: 1s;
-    background: white !important;
+    background: rgb(var(--sinon-white));
 }
 .box .social-title{
     padding-top: 20px;
@@ -215,7 +215,7 @@ body{
     line-height: 48px;
     overflow: hidden;
     transition: 0.1s;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     border-bottom: 2px solid rgba(var(--sinon-light-gray), 0.2);
 }
  .playlist a {
@@ -248,7 +248,7 @@ body{
     justify-content: center;
     letter-spacing: 2px;
     font-weight: 600;
-    color: white;
+    color: rgb(var(--sinon-white));
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -271,4 +271,3 @@ body{
 }
 .box .playlist-title{
     padding-top: 2px;
-}
