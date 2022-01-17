@@ -1150,7 +1150,13 @@ backdrop-filter: blur(2px) !important;
     z-index: 20;
     }
 }
-
+.activity-feed-wrap > div.activity-edit > h2:after {
+    content: 'Please do not send if it is not important or I will delete it.';
+    padding: 13px;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: rgb(var(--sinon-gold));
+}
 /*===============================================
     Animations
 ===============================================*/
