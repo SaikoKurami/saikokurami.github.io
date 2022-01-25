@@ -1027,6 +1027,12 @@ body .overview .favourite.studio,
   }
 }
 
+.activity-entry .like-wrap .users {
+    transition: 0.3s !important;
+    background: rgb(255 255 255 / 0%);
+    animation: FadeInLeft;
+    animation-duration: 1s;
+}
 
 /*Modified HohPinned*/
 
