@@ -1078,16 +1078,17 @@ display: none !important;
     transition: 0.3s;
 }
 .action.likes.hohHandledLike > div > div.users {
-    transition: 0.4s;
+    animation: fadeInRight;
+    animation-duration: 1s;
+    transition: 1s;;
     background: none !important;
-    width: 200px !important;
 }
 .action.likes.hohHandledLike > div > div.users > a {
     border-radius: 50%;
-    filter: saturate(0.5);
+    filter: saturate(0.3);
 }
 .action.likes.hohHandledLike > div > div.users > a:hover {
-    filter: saturate(1);
+    filter: hue-rotate(340deg);
     transition: 0.3s;
     transform: scale(0.91);
     border: 1px solid rgb(var(--sinon-cyan));
