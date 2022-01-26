@@ -1079,8 +1079,8 @@ display: none !important;
 }
 .action.likes.hohHandledLike > div > div.users {
     animation: fadeInRight;
-    animation-duration: 1s;
-    transition: 1s;;
+    animation-duration: 0.5s;
+    transition: 0.5s;;
     background: none !important;
 }
 .action.likes.hohHandledLike > div > div.users > a {
