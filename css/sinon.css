@@ -1084,10 +1084,10 @@ display: none !important;
 }
 .action.likes.hohHandledLike > div > div.users > a {
     border-radius: 50%;
-    opacity: 0.7;
+    filter: saturate(0.5);
 }
 .action.likes.hohHandledLike > div > div.users > a:hover {
-    opacity: 1;
+    filter: saturate(1);
     transition: 0.3s;
     transform: scale(0.91);
     border: 1px solid rgb(var(--sinon-cyan));
