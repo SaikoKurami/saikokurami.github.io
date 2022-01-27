@@ -269,6 +269,16 @@ body{
     position: absolute;
     background-color: rgb(var(--sinon-cyan));
 }
-.box .playlist-title{
-    padding-top: 2px;
+.box .counter{
+    display: flex;
+    margin-top: -30px;
+    position: absolute;
+}
+.date {
+    display: flex;
+    font-size: 0.7rem;
+    padding: 7px 0 11px 0;
+    justify-content: flex-end;
+    color: rgb(var(--sinon-light-gray));
+    font-weight: 100;
 }
