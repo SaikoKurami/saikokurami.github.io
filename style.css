@@ -200,9 +200,12 @@ body{
     transition: 1s;
     background: rgb(var(--sinon-white));
 }
-.box .social-title,
-.box .playlist-title{
+.box .social-title{
     padding-top: 20px;
+    display: flex;
+}
+.box .playlist-title{
+    padding-top: 10px;
     display: flex;
 }
 .playlist {
