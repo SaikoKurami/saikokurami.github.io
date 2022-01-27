@@ -74,7 +74,7 @@ body{
     border-radius: 0 0 6px 6px;
     background: rgb(var(--color-foreground));
     padding: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     text-align: center;
     margin: auto;
     margin-top: 20%;
@@ -200,8 +200,10 @@ body{
     transition: 1s;
     background: rgb(var(--sinon-white));
 }
-.box .social-title{
+.box .social-title,
+.box .playlist-title{
     padding-top: 20px;
+    display: flex;
 }
 .playlist {
     font-size: 26px;
