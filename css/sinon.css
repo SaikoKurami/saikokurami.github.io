@@ -18,9 +18,7 @@
 
 */ 
 
-/*
-import fonts and animations (〃￣︶￣)人(￣︶￣〃)
-*/
+/*import fonts and animations (〃￣︶￣)人(￣︶￣〃)*/
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
@@ -108,7 +106,7 @@ body,
     Body
 =================================================*/
 
-    body {
+body {
     cursor: var(--sinon-cursor), auto;
     overflow: overlay;
     background: rgb(var(--color-background)) var(--sinon-background) center/100% fixed;
