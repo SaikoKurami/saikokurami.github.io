@@ -18,7 +18,9 @@
 
 */ 
 
-/*import fonts and animations*/
+/*
+import fonts and animations (〃￣︶￣)人(￣︶￣〃)
+*/
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
@@ -51,6 +53,11 @@
     --sinon-techno-circle: url(https://i.imgur.com/fbravZD.png);
     --sinon-pointer-right: url(https://files.catbox.moe/xzed23.svg);
     --sinon-pointer-left: url(https://files.catbox.moe/umjbp6.svg);
+    /*Preferences*/
+    --saiko-animation: 1s;
+    --saiko-animation-slow: 0.5s;
+    --saiko-transtion-slow: 0.2s;
+    --saiko-transition-normal: 1s;
 }
 
 /*===============================================
@@ -207,7 +214,7 @@ display: none !important;
 .nav .wrap .search:hover {
     box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--sinon-dirty-white));
     padding: 7px;
-    transition: .2s;
+    transition: var(--saiko-transtion-slow);
 }
 
 .nav .wrap .user {
@@ -339,7 +346,7 @@ display: none;
 .time .action.active[data-v-77aecf0c] {
     color: rgba(var(--sinon-cyan));
     animation: swing;
-    animation-duration: 1s;
+    animation-duration: var(--saiko-animation);
 }
 
 .stats-wrap {
@@ -398,7 +405,7 @@ display: none;
 .activity-manga_list .wrap {
     max-height: 70px;
     overflow: hidden;
-    transition: 0.2s;
+    transition: var(--saiko-transtion-slow);
     }
 }
 
@@ -413,7 +420,7 @@ display: none;
 .activity-anime_list .wrap:hover .cover,
 .activity-manga_list .wrap:hover .cover {
     max-height: 150px;
-    transition: 0.2s;
+    transition: var(--saiko-transtion-slow);
     }
 }
 
@@ -453,7 +460,9 @@ display: none;
     -webkit-filter: blur(1.7px);
 }
 
-/*Activity cover background*/
+/*
+Activity cover background (///￣皿￣)○～ 
+*/
 @media (min-width: 1540px) {
     .activity-feed > div > div.wrap > div.list.small > a::before {
      content: "";
@@ -481,7 +490,9 @@ display: none;
     box-shadow: 0px 0 10px 20px rgb(0 0 0 / 10%);
 }
 
-/* Activity Title-overflow fixed */
+/* 
+Activity Title-overflow fixed !(*￣(￣　*)
+*/
 @media (min-width: 1540px) {
 .list.small 
     > div
@@ -495,7 +506,9 @@ display: none;
   }
 }
 
-/*remove Guild feature on 1280px screen*/
+/*
+remove Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
+*/
 @media (max-width: 1280px) {
     .about a:nth-child(17)::after,
     .about a:nth-child(17)::before {
@@ -529,7 +542,9 @@ display: none;
     width: 600px;
 }
 
-/*Activity Users Profile*/
+/*
+Activity Users Profile ヽ(￣ω￣(￣ω￣〃)ゝ
+*/
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after {
     content: '';
     mask: var(--sinon-owner-icon) no-repeat 50% 50%;
@@ -584,7 +599,9 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     position: absolute !important;
 }
 
-/* Change name spacing and color */
+/*
+ Change name spacing and color 
+*/
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
     color: rgb(var(--sinon-cyan));
     letter-spacing: 0.03em;
@@ -618,13 +635,13 @@ background-color: rgb(var(--color-foreground-grey));
 /*load-more*/
 .scroller:hover .load-more:before {
     margin-left: -60px !important;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
     transform: rotate(-180deg);
 }
 
 .scroller:hover .load-more:after {
     margin-left: 40px !important;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
     transform: rotate(180deg);
 }
 
@@ -637,7 +654,7 @@ background-color: rgb(var(--color-foreground-grey));
     background-color: rgb(var(--sinon-cyan));
     margin-left: -210px;
     margin-top: -2px;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 .load-more::after {
@@ -649,11 +666,11 @@ background-color: rgb(var(--color-foreground-grey));
     background-color: rgb(var(--sinon-cyan));
     margin-left: 190px;
     margin-top: -2px;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 .scroller:hover .load-more {
     color: rgb(var(--sinon-cyan));
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 @media (min-width: 1540px) {
@@ -670,10 +687,6 @@ background-color: rgb(var(--color-foreground-grey));
 }
 
 /*Stats=======================================*/
-
-.stats-wrap[data-v-5c30286e]{
-    margin-right: 0us activity%;
-}
 
 .stats-wrap[data-v-815ccddc] {
     display: grid;
@@ -835,7 +848,7 @@ border-radius: 0 0 0 4px;
     
 /* favourite enlarge while hover*/
 .favourite[data-v-0317d914] {
-   transition: transform .2s;
+   transition: var(--saiko-transtion-slow);
    border-radius: 20%;
    position: static;
    overflow: visible;
@@ -986,7 +999,7 @@ body .overview .favourite.studio,
 
 .medialist.cards .entry-card .title:hover {
     white-space: normal !important;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 /*===============================================
@@ -1082,8 +1095,8 @@ display: none !important;
 }
 .action.likes.hohHandledLike > div > div.users {
     animation: fadeInRight;
-    animation-duration: 0.5s;
-    transition: 0.5s;;
+    animation-duration: var(--saiko-animation-slow);
+    transition: 0.5s;
     background: none !important;
 }
 .action.likes.hohHandledLike > div > div.users > a {
@@ -1106,7 +1119,7 @@ display: none !important;
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
     background-image: var(--sinon-gif) !important;
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 a.favourite.media.hohExtraFav {
@@ -1189,59 +1202,59 @@ backdrop-filter: blur(2px) !important;
 
 .activity-entry {
     animation: zoomIn;
-    animation-duration: .5s;
+    animation-duration: var(--saiko-animation-slow);
 }
 
 .overview,
 .input,
 .stats-wrap {
     animation: fadeInRight;
-    animation-duration: .5s;
+    animation-duration: var(--saiko-animation-slow);
 }
 
 .page-content > div 
 > div.content.container > div
 > div:nth-child(1) {
     animation: fadeInLeft;
-    animation-duration: .5s;
+    animation-duration: var(--saiko-animation-slow);
     animation-iteration-count: 1;
 }
 
 .about a:nth-child(17)::after {
    animation: fadeInBottomLeft;
-   animation-duration: 1s;
+   animation-duration: var(--saiko-animation);
 }
 
 .reply {
     animation: fadeInRight;
-    animation-duration: .5s;
+    animation-duration: var(--saiko-animation-slow);
 }
 
 .header-wrap .actions .nav-btn:hover,
 .banner-content h1.name:hover,
 .header-wrap > div.banner > div.container > div > img:hover {
     transform: scale(1.05);
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 .banner-content h1.name,
 .header-wrap > div.banner > div.container > div > img {
-    transition: 1s;
+    transition: var(--saiko-transition-normal);
 }
 
 .button.liked > svg {
     animation: rubberBand;
-    animation-duration: 1s;
+    animation-duration: var(--saiko-animation);
 }
 
 .medialist.cards .entry-card {
     animation: zoomIn;
-    animation-duration: 1s;
+    animation-duration: var(--saiko-animation);
 }
 
 .header-wrap > div.banner > div.container > div > img {
 animation: zoomIn;
-    animation-duration: 1s;
+    animation-duration: var(--saiko-animation);
 }
 
 .progress .bar {
