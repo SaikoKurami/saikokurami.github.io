@@ -1,10 +1,12 @@
 /*
     Owned by Keq
     * https://anilist.co/user/Keq/
+    Edited by SaikoKurami
+    * https://anilist.co/user/SaikoKurami/
     Copyright (c) 2021 - Destiny Custom CSS V.1.0.0
 */
 
-   body {
+body {
     background: rgb(var(--color-background)) url("https://cdn.discordapp.com/attachments/856149054701830164/940591605788864582/unknown.png") center/100% fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +63,7 @@
 .list.small > div > div.status > a {
     font-weight: 405;
 }
+.activity-feed .activity-entry.activity-message .wrap,
 .activity-entry.activity-text .wrap {
     backdrop-filter: blur(3px) !important;
     background-color: rgba(var(--color-foreground),0.8);
