@@ -27,36 +27,38 @@
 
 :root {
     /*Color Scheme*/
-    --sinon-cyan: 115, 190, 203;
-    --sinon-gold: 249, 189, 4;
-    --sinon-gray: 40, 56, 77;
-    --sinon-light-gray: 65, 81, 100;
-    --sinon-dark-gray: 40, 56, 77;
-    --sinon-white: 255, 255, 255;
-    --sinon-dirty-white: 219, 219, 219;
-    --sinon-transparent: rgb(0 0 0 / 0%);
+    --saiko-cyan: 115, 190, 203;
+    --saiko-gold: 249, 189, 4;
+    --saiko-gray: 40, 56, 77;
+    --saiko-light-gray: 65, 81, 100;
+    --saiko-dark-gray: 40, 56, 77;
+    --saiko-white: 255, 255, 255;
+    --saiko-dirty-white: 219, 219, 219;
+    --saiko-transparent: rgb(0 0 0 / 0%);
     /*Customize image*/
-    --sinon-background: url(https://i.imgur.com/fzpFvaS.png);
-    --sinon-cursor: url(https://i.imgur.com/lO6CsbT.png);
-    --sinon-avatar: url(https://i.imgur.com/PLTCAq0.gif);
-    --sinon-footer-particles: url(https://i.imgur.com/3JjhuIh.gif);
-    --sinon-waifu: url(https://i.imgur.com/rjUgKbr.png);
-    --sinon-gif: url(https://i.imgur.com/nCoRLt7.gif);
+    --saiko-background: url(https://i.imgur.com/fzpFvaS.png);
+    --saiko-cursor: url(https://i.imgur.com/lO6CsbT.png);
+    --saiko-avatar: url(https://i.imgur.com/PLTCAq0.gif);
+    --saiko-footer-particles: url(https://i.imgur.com/3JjhuIh.gif);
+    --saiko-waifu: url(https://i.imgur.com/rjUgKbr.png);
+    --saiko-gif: url(https://i.imgur.com/nCoRLt7.gif);
     /*Added Icons feature*/
-    --sinon-anilist-logo: url(https://files.catbox.moe/nyzorc.svg);
-    --sinon-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
-    --sinon-friends-icon: url(https://files.catbox.moe/cnsbi0.svg);
-    --sinon-anime-icon: url(https://files.catbox.moe/jyg6jn.svg);
-    --sinon-manga-icon: url(https://files.catbox.moe/y3fyrt.svg);
-    --sinon-stray-guild: url(https://i.imgur.com/M3LznFH.png);
-    --sinon-techno-circle: url(https://i.imgur.com/fbravZD.png);
-    --sinon-pointer-right: url(https://files.catbox.moe/xzed23.svg);
-    --sinon-pointer-left: url(https://files.catbox.moe/umjbp6.svg);
+    --saiko-anilist-logo: url(https://files.catbox.moe/nyzorc.svg);
+    --saiko-owner-icon: url(https://files.catbox.moe/g9vjx5.svg);
+    --saiko-friends-icon: url(https://files.catbox.moe/cnsbi0.svg);
+    --saiko-anime-icon: url(https://files.catbox.moe/jyg6jn.svg);
+    --saiko-manga-icon: url(https://files.catbox.moe/y3fyrt.svg);
+    --saiko-stray-guild: url(https://i.imgur.com/M3LznFH.png);
+    --saiko-techno-circle: url(https://i.imgur.com/fbravZD.png);
+    --saiko-pointer-right: url(https://files.catbox.moe/xzed23.svg);
+    --saiko-pointer-left: url(https://files.catbox.moe/umjbp6.svg);
     /*Preferences*/
-    --saiko-animation: 1s;
-    --saiko-animation-slow: 0.5s;
-    --saiko-transtion-slow: 0.2s;
+    --saiko-animation-normal: 1s;
+    --saiko-animation-fast: 0.5s;
     --saiko-transition-normal: 1s;
+    --saiko-transition-fast: 0.5s;
+    --saiko-transition-faster: 0.2s;
+    --saiko-transition-slow: 2s;
 }
 
 /*===============================================
@@ -73,7 +75,7 @@ body,
     --color-foreground-grey-dark: 6,12,19 !important;
     --color-foreground-blue: 15,22,31 !important;
     --color-foreground-blue-dark: 6,12,19 !important;
-    --color-text: 159,173,189!important;
+    --color-text: 159,173,189 !important;
     --color-text-light: 114,138,161 !important;
     --color-text-lighter: 133,150,165!important;
     --color-shadow-blue: 0,5,15!important;
@@ -108,24 +110,24 @@ body,
 =================================================*/
 
 body {
-    cursor: var(--sinon-cursor), auto;
+    cursor: var(--saiko-cursor), auto;
     overflow: overlay;
-    background: rgb(var(--color-background)) var(--sinon-background) center/100% fixed;
+    background: rgb(var(--color-background)) var(--saiko-background) center/100% fixed;
     font-family: 'Poppins', Overpass, sans-serif;
 }
 
 /*Scroll bar*/
 ::-webkit-scrollbar {
     width: 8px;
-    background: rgb(var(--sinon-transparent));
+    background: rgb(var(--saiko-transparent));
 }
 
 ::-webkit-scrollbar-corner {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--saiko-cyan));
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--saiko-cyan));
     -webkit-border-radius: 1ex;
 }
 
@@ -136,7 +138,7 @@ display: none !important;
     
 .text .markdown::-webkit-scrollbar {
     width: 2px !important;
-    background: rgb(var(--sinon-transparent));
+    background: rgb(var(--saiko-transparent));
 }
 
 .text .markdown {
@@ -160,7 +162,7 @@ display: none !important;
 
 .nav {
     background: rgb(var(--color-foreground)) !important;
-    color: rgb(var(--sinon-dirty-white)) !important;
+    color: rgb(var(--saiko-dirty-white)) !important;
 }
 
 .nav[data-v-4fbac4e1] {
@@ -174,7 +176,7 @@ display: none !important;
 }
     .site-theme-dark .nav-unscoped.transparent {
     background: rgba(var(--color-foreground));
-    color: rgb(var(--sinon-dirty-white));
+    color: rgb(var(--saiko-dirty-white));
 }
 
 .nav .wrap {
@@ -206,14 +208,14 @@ display: none !important;
 
 /*
 #nav > div.wrap > div.user > a {
-    background: rgb(var(--sinon-cyan)) !important;
+    background: rgb(var(--saiko-cyan)) !important;
 }
 */
 
 .nav .wrap .search:hover {
-    box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--sinon-dirty-white));
+    box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--saiko-dirty-white));
     padding: 7px;
-    transition: var(--saiko-transtion-slow);
+    transition: var(--saiko-transition-faster);
 }
 
 .nav .wrap .user {
@@ -222,7 +224,7 @@ display: none !important;
 }
 
 .activity-feed .liked {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
 }
 
 .logo img[data-v-4fbac4e1] {
@@ -242,7 +244,7 @@ display: none !important;
 > div.container 
 > div 
 > img {
-    content: var(--sinon-avatar);
+    content: var(--saiko-avatar);
 }
 
 /* Removed Banner Shadow */
@@ -260,7 +262,7 @@ display: none;
     max-width: 160px;
     width: 100%;
     border-radius: 50%;
-    border: 9px solid rgb(var(--sinon-cyan));
+    border: 9px solid rgb(var(--saiko-cyan));
     margin-bottom: 10px;
 }
 
@@ -275,17 +277,17 @@ display: none;
 .banner-content h1.name {
     margin-bottom: 5px;
     margin-left: 20px;
-    background: rgb(var(--sinon-light-gray));
+    background: rgb(var(--saiko-light-gray));
     filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
 .name[data-v-de544782],
 .name[data-v-5445dac8] {
-    color: rgb(var(--sinon-white));
+    color: rgb(var(--saiko-white));
 }
 
 .header-wrap .actions .nav-btn {
-    background: rgb(var(--sinon-light-gray));
+    background: rgb(var(--saiko-light-gray));
     margin-bottom: 8px;
     border-radius: 20px;
     width: 200px;
@@ -294,7 +296,7 @@ display: none;
 .header-wrap .actions .dropdown {
     margin-top: 150px;
     background: rgb(var(--color-overlay),0);
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
 }
 
 .header-wrap .nav-wrap {
@@ -306,7 +308,7 @@ display: none;
 .header-wrap .nav-wrap .nav .link {
     margin: 0 30px;
     font-size: 1.7rem;
-    border-bottom: 2px solid rgba(var(--sinon-transparent));
+    border-bottom: 2px solid rgba(var(--saiko-transparent));
 }
 
 .header-wrap .nav-wrap .nav .link:hover {
@@ -314,12 +316,12 @@ display: none;
 }
 
 .header-wrap .nav-wrap .nav .link.router-link-active {
-    border-bottom: 3px solid rgb(var(--sinon-cyan));
-    color: rgb(var(--sinon-dirty-white));
+    border-bottom: 3px solid rgb(var(--saiko-cyan));
+    color: rgb(var(--saiko-dirty-white));
 }
 
 .mod-badge-wrap.follower-badge {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--saiko-cyan));
     padding: 8px 8px 7px 8px;
     margin-bottom: 33px;
     margin-left: -11px;
@@ -339,13 +341,13 @@ display: none;
     Overview
 ===============================================*/    
 .time .action.active[data-v-77aecf0c] {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
 }
 
 .time .action.active[data-v-77aecf0c] {
-    color: rgba(var(--sinon-cyan));
+    color: rgba(var(--saiko-cyan));
     animation: swing;
-    animation-duration: var(--saiko-animation);
+    animation-duration: var(--saiko-animation-normal);
 }
 
 .stats-wrap {
@@ -387,7 +389,7 @@ display: none;
 .wrap 
 > div.text 
 > div.activity-markdown{
-   border-bottom: 1px solid rgba(var(--sinon-light-gray), 0.2);
+   border-bottom: 1px solid rgba(var(--saiko-light-gray), 0.2);
 }
 
 .activity-message .wrap 
@@ -404,7 +406,7 @@ display: none;
 .activity-manga_list .wrap {
     max-height: 70px;
     overflow: hidden;
-    transition: var(--saiko-transtion-slow);
+    transition: var(--saiko-transition-faster);
     }
 }
 
@@ -419,7 +421,7 @@ display: none;
 .activity-anime_list .wrap:hover .cover,
 .activity-manga_list .wrap:hover .cover {
     max-height: 150px;
-    transition: var(--saiko-transtion-slow);
+    transition: var(--saiko-transition-faster);
     }
 }
 
@@ -506,7 +508,7 @@ Activity Title-overflow fixed !(*￣(￣　*)
 }
 
 /*
-remove Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
+Hide Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
 */
 @media (max-width: 1280px) {
     .about a:nth-child(17)::after,
@@ -546,8 +548,8 @@ Activity Users Profile ヽ(￣ω￣(￣ω￣〃)ゝ
 */
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after {
     content: '';
-    mask: var(--sinon-owner-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
+    mask: var(--saiko-owner-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-owner-icon) no-repeat 50% 50%;
     mask-size: cover;
 }
 
@@ -557,13 +559,13 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 > .header
 > .name::after {
     content: '';
-    mask: var(--sinon-friends-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-friends-icon) no-repeat 50% 50%;
+    mask: var(--saiko-friends-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-friends-icon) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: auto;
     position: inherit;
     padding: 10px 8px;
-    background-color: rgb(var(--sinon-gray));
+    background-color: rgb(var(--saiko-gray));
     margin-left: 8px;
 }
 
@@ -589,7 +591,7 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 }
 
 .donator-badge[data-v-77aecf0c] {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
     background: none !important;
     display: block;
     overflow: hidden;
@@ -602,7 +604,7 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
  Change name spacing and color 
 */
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link) {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
     letter-spacing: 0.03em;
 }
 
@@ -624,7 +626,7 @@ background-color: rgb(var(--color-foreground-grey));
 
 /*Spoiler*/
 .markdown .markdown-spoiler:before {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
     background: rgb(var(--color-background));
     border-radius: 3px;
     content: "S P O I L E R";
@@ -646,11 +648,11 @@ background-color: rgb(var(--color-foreground-grey));
 
 .load-more::before {
     content: '';
-    -webkit-mask: var(--sinon-pointer-right) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-pointer-right) no-repeat 50% 50%;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 9px 9px;
-    background-color: rgb(var(--sinon-cyan));
+    background-color: rgb(var(--saiko-cyan));
     margin-left: -210px;
     margin-top: -2px;
     transition: var(--saiko-transition-normal);
@@ -658,17 +660,17 @@ background-color: rgb(var(--color-foreground-grey));
 
 .load-more::after {
     content: '';
-    -webkit-mask: var(--sinon-pointer-left) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-pointer-left) no-repeat 50% 50%;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 9px 9px;
-    background-color: rgb(var(--sinon-cyan));
+    background-color: rgb(var(--saiko-cyan));
     margin-left: 190px;
     margin-top: -2px;
     transition: var(--saiko-transition-normal);
 }
 .scroller:hover .load-more {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
     transition: var(--saiko-transition-normal);
 }
 
@@ -739,7 +741,7 @@ background-color: rgb(var(--color-foreground-grey));
 }
 
 .progress .bar[data-v-815ccddc] {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--saiko-cyan));
 }
 
 .list-stats {
@@ -780,8 +782,8 @@ border-radius: 0 0 0 4px;
   .stat:nth-child(2)
   .value:after {
     content: '';
-    mask: var(--sinon-anime-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-anime-icon) no-repeat 50% 50%;
+    mask: var(--saiko-anime-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-anime-icon) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: cover;
     width: 30px;
@@ -797,8 +799,8 @@ border-radius: 0 0 0 4px;
   .stat:nth-child(2)
   .value:after {
     content: '';
-    mask: var(--sinon-manga-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-manga-icon) no-repeat 50% 50%;
+    mask: var(--saiko-manga-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-manga-icon) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: cover;
     width: 30px;
@@ -816,7 +818,7 @@ border-radius: 0 0 0 4px;
 
 /*Unfollow botton*/
 .unfollow[data-v-39573fe2] {
-    background: rgb(var(--sinon-cyan));
+    background: rgb(var(--saiko-cyan));
 }
 
 .medialist.cards .entry-card .title {
@@ -825,7 +827,7 @@ border-radius: 0 0 0 4px;
 }
 
 .medialist.cards .entry-card .edit {
-    background: rgb(var(--sinon-cyan)) !important;
+    background: rgb(var(--saiko-cyan)) !important;
 }
 
 .tooltip {
@@ -847,7 +849,7 @@ border-radius: 0 0 0 4px;
     
 /* favourite enlarge while hover*/
 .favourite[data-v-0317d914] {
-   transition: var(--saiko-transtion-slow);
+   transition: var(--saiko-transition-faster);
    border-radius: 20%;
    position: static;
    overflow: visible;
@@ -858,7 +860,7 @@ border-radius: 0 0 0 4px;
 .about a:nth-child(2) > img,
 .about a:nth-child(3) > img,
 .about a:nth-child(4) > img {
-    transition: .5s;
+    transition: var(--saiko-transition-fast);
 }
 
 .about a:nth-child(1) > img:hover,
@@ -866,7 +868,7 @@ border-radius: 0 0 0 4px;
 .about a:nth-child(3) > img:hover,
 .about a:nth-child(4) > img:hover {
     transform: scale(1.05);
-    transition: .5s;
+    transition: var(--saiko-transition-fast);
 }
 
 .favourite:hover {
@@ -965,7 +967,7 @@ body .overview .favourite.studio,
 
 /* Change History level 3 color */
 .history-day.lv-3 {
-    background: rgb(var(--sinon-dark-gray)) !important;
+    background: rgb(var(--saiko-dark-gray)) !important;
 }
 
 /* Hide Genre */
@@ -1008,7 +1010,7 @@ body .overview .favourite.studio,
 /*Sinon Discord Server*/
 .about p:nth-child(16) > a:nth-child(2)::after {
     content: "";
-    background-image: var(--sinon-stray-guild);
+    background-image: var(--saiko-stray-guild);
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -1022,7 +1024,7 @@ body .overview .favourite.studio,
 
 .about p:nth-child(16) > a:nth-child(2)::before {
     content: "";
-    background-image: var(--sinon-techno-circle);
+    background-image: var(--saiko-techno-circle);
     background-size: contain;
     width: 222px;
     height: 239px;
@@ -1078,7 +1080,7 @@ display: none !important;
     content: '';
     position: absolute;
     z-index: 1;
-    background: rgb(var(--sinon-transparent));
+    background: rgb(var(--saiko-transparent));
     bottom: 26px;
     left: 0%;
     right: 0px;
@@ -1094,8 +1096,8 @@ display: none !important;
 }
 .action.likes.hohHandledLike > div > div.users {
     animation: fadeInRight;
-    animation-duration: var(--saiko-animation-slow);
-    transition: 0.5s;
+    animation-duration: var(--saiko-animation-fast);
+    transition: var(--saiko-transition-fast);
     background: none !important;
 }
 .action.likes.hohHandledLike > div > div.users > a {
@@ -1106,18 +1108,18 @@ display: none !important;
     filter: hue-rotate(340deg);
     transition: 0.3s;
     transform: scale(0.91);
-    border: 1px solid rgb(var(--sinon-cyan));
+    border: 1px solid rgb(var(--saiko-cyan));
 }
 
 /*SINON COVER*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
-    background-image: var(--sinon-waifu) !important;
-    transition: 0.5s;
+    background-image: var(--saiko-waifu) !important;
+    transition: var(--saiko-transition-fast);
 }
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
-    background-image: var(--sinon-gif) !important;
+    background-image: var(--saiko-gif) !important;
     transition: var(--saiko-transition-normal);
 }
 
@@ -1133,13 +1135,13 @@ a.favourite.media.hohExtraFav {
 > div 
 > a:nth-child(1):after {
     content: '';
-    mask: var(--sinon-owner-icon) no-repeat 50% 50%;
-    -webkit-mask: var(--sinon-owner-icon) no-repeat 50% 50%;
+    mask: var(--saiko-owner-icon) no-repeat 50% 50%;
+    -webkit-mask: var(--saiko-owner-icon) no-repeat 50% 50%;
     mask-size: cover;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 24px 8px;
-    background-color: rgb(var(--sinon-gold));
+    background-color: rgb(var(--saiko-gold));
     margin-left: -11px;
     margin-top: -31px;
     overflow: overlay;
@@ -1151,7 +1153,7 @@ a.favourite.media.hohExtraFav {
 #app 
 > div.wrap 
 > div {
-    background: var(--sinon-footer-particles) no-repeat center/100% !important;
+    background: var(--saiko-footer-particles) no-repeat center/100% !important;
     width: auto;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
 }
@@ -1161,7 +1163,7 @@ backdrop-filter: blur(2px) !important;
 }
 
 #nav > div.quick-search.visible > div.input > svg {
-    color: rgb(var(--sinon-cyan));
+    color: rgb(var(--saiko-cyan));
 }
 
 .quick-search.visible {
@@ -1173,7 +1175,7 @@ backdrop-filter: blur(2px) !important;
 }
 
 .logo > img {
-    content: var(--sinon-anilist-logo);
+    content: var(--saiko-anilist-logo);
 }
 
 @media (min-width: 1040px) and (max-width: 1540px) {
@@ -1193,7 +1195,7 @@ backdrop-filter: blur(2px) !important;
     padding: 13px;
     letter-spacing: 2px;
     font-size: 1rem;
-    color: rgb(var(--sinon-gold));
+    color: rgb(var(--saiko-gold));
 }
 /*===============================================
     Animations
@@ -1201,32 +1203,32 @@ backdrop-filter: blur(2px) !important;
 
 .activity-entry {
     animation: zoomIn;
-    animation-duration: var(--saiko-animation-slow);
+    animation-duration: var(--saiko-animation-fast);
 }
 
 .overview,
 .input,
 .stats-wrap {
     animation: fadeInRight;
-    animation-duration: var(--saiko-animation-slow);
+    animation-duration: var(--saiko-animation-fast);
 }
 
 .page-content > div 
 > div.content.container > div
 > div:nth-child(1) {
     animation: fadeInLeft;
-    animation-duration: var(--saiko-animation-slow);
+    animation-duration: var(--saiko-animation-fast);
     animation-iteration-count: 1;
 }
 
 .about a:nth-child(17)::after {
    animation: fadeInBottomLeft;
-   animation-duration: var(--saiko-animation);
+   animation-duration: var(--saiko-animation-normal);
 }
 
 .reply {
     animation: fadeInRight;
-    animation-duration: var(--saiko-animation-slow);
+    animation-duration: var(--saiko-animation-fast);
 }
 
 .header-wrap .actions .nav-btn:hover,
@@ -1243,20 +1245,20 @@ backdrop-filter: blur(2px) !important;
 
 .button.liked > svg {
     animation: rubberBand;
-    animation-duration: var(--saiko-animation);
+    animation-duration: var(--saiko-animation-normal);
 }
 
 .medialist.cards .entry-card {
     animation: zoomIn;
-    animation-duration: var(--saiko-animation);
+    animation-duration: var(--saiko-animation-normal);
 }
 
 .header-wrap > div.banner > div.container > div > img {
 animation: zoomIn;
-    animation-duration: var(--saiko-animation);
+    animation-duration: var(--saiko-animation-normal);
 }
 
 .progress .bar {
     animation: slideInLeft;
-    animation-duration: 2s;
+    animation-duration: var(--saiko-transition-slow);
 }
