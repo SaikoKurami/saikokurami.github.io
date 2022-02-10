@@ -1097,7 +1097,6 @@ display: none !important;
     display: none !important;
 }
 .genres > div:nth-child(1) > div.name {
-    background: rgb(var(--saiko-cyan)) !important;
     padding: 0 !important;
     height: 0 !important;
     font-size: 0 !important;
