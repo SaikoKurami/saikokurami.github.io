@@ -1081,7 +1081,7 @@ display: none !important;
     min-height: 300px;
 }
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
-    content: "Playing on Spotify" !important;
+    content: "Listening to Spotify" !important;
     font-size: 1.4rem;
 }
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
