@@ -1070,7 +1070,6 @@ display: none !important;
 > div {
     margin-bottom: 0 !important;
 }
-
 .hohPinned.activity-text:after {
     content: '';
     position: absolute;
@@ -1081,7 +1080,6 @@ display: none !important;
     right: 0px;
     min-height: 300px;
 }
-
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
     content: "Playing on Spotify" !important;
     font-size: 1.4rem;
