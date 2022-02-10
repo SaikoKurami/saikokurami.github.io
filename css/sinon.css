@@ -1082,8 +1082,16 @@ display: none !important;
     min-height: 300px;
 }
 
-/*Replacing Genre to (Playing Spotify) §(*￣▽￣*)§ */
-
+.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
+    content: "Playing on Spotify" !important;
+    font-size: 1.4rem;
+}
+.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
+    font-size: 0;
+}
+.percentage-bar {
+    display: none !important;
+}
 .genres > div:nth-child(2),
 .genres > div:nth-child(3),
 .genres > div:nth-child(4),
@@ -1300,15 +1308,4 @@ animation: zoomIn;
 .progress .bar {
     animation: slideInLeft;
     animation-duration: var(--saiko-transition-slow);
-}
-
-.content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
-    content: "Playing on Spotify" !important;
-    font-size: 1.4rem;
-}
-.content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
-    font-size: 0;
-}
-.percentage-bar {
-    display: none !important;
 }
