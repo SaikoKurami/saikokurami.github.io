@@ -52,6 +52,13 @@
     --saiko-techno-circle: url(https://i.imgur.com/fbravZD.png);
     --saiko-pointer-right: url(https://files.catbox.moe/xzed23.svg);
     --saiko-pointer-left: url(https://files.catbox.moe/umjbp6.svg);
+    /*Spotfy*/
+    --spotfy-url-profile: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4qpaju6tda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
+    --spotfy-error-playing: url(https://i.imgur.com/9kpSOR5.png);
+    --spotfy-logo: url('https://i.imgur.com/KIoS2u2.png');
+    --spotfy-background-color: rgb(23, 36, 54);
+    --spofty-shadow: 0px 0px 7px 0px rgb(0 0 0 / 32%);
+    --spotfy-border: 4px solid rgba(var(--saiko-light-gray), 0.2);
     /*Preferences*/
     --saiko-animation-normal: 1s;
     --saiko-animation-fast: 0.5s;
@@ -59,6 +66,7 @@
     --saiko-transition-fast: 0.5s;
     --saiko-transition-faster: 0.2s;
     --saiko-transition-slow: 2s;
+    
 }
 
 /*===============================================
@@ -1079,6 +1087,9 @@ display: none !important;
     right: 0px;
     min-height: 300px;
 }
+
+/*Spotify feature made by me! ♪(^∇^*) */
+
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
     content: "Listening to Spotify" !important;
     font-size: 1.4rem;
@@ -1106,7 +1117,7 @@ display: none !important;
     display: none !important;
 }
 .genres:before {
-    content: url(https://i.imgur.com/9kpSOR5.png);
+    content: var(--spotfy-error-playing);
     transform: scale(0.64);
     display: inline-block;
     position: absolute;
@@ -1118,29 +1129,29 @@ display: none !important;
     content: '';
     display: inline-block;
     z-index: 20;
-    border: 4px solid rgba(var(--saiko-light-gray), 0.2);
+    border: var(--spotfy-border);
     transform: scale(1.3);
     padding-top: 1px;
-    background: rgb(23, 36, 54);
+    background: var(--spotfy-background-color);
     width: 328px;
     height: 96px;
     margin-top: 9px;
-    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 32%);
+    box-shadow: var(--spotfy-shadow);
     border-radius: 4px;
 }
 .genres > div:nth-child(1):after {
-    content: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4qpaju6tda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
+    content: var(--spotfy-url-profile);
     transform: scale(1.3);
     display: inline-block;
     position: absolute;
-    background: rgb(23 36 54);
+    background: var(--spotfy-background-color);
     margin-left: -160px;
     margin-top: -103px;
     z-index: 3;
 }
 .genres:after {
     content: '';
-    -webkit-mask: url('https://i.imgur.com/KIoS2u2.png') no-repeat 50% 50%;
+    -webkit-mask: var(--spotfy-logo) no-repeat 50% 50%;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
