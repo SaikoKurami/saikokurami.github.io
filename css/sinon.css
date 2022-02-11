@@ -548,9 +548,7 @@ Activity Users Profile ヽ(￣ω￣(￣ω￣〃)ゝ
 */
 a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after {
     content: '';
-    mask: var(--saiko-owner-icon) no-repeat 50% 50%;
     -webkit-mask: var(--saiko-owner-icon) no-repeat 50% 50%;
-    mask-size: cover;
     -webkit-mask-size: auto;
     position: inherit;
     padding: 10px 8px;
@@ -787,9 +785,7 @@ border-radius: 0 0 0 4px;
   .stat:nth-child(2)
   .value:after {
     content: '';
-    mask: var(--saiko-anime-icon) no-repeat 50% 50%;
     -webkit-mask: var(--saiko-anime-icon) no-repeat 50% 50%;
-    mask-size: cover;
     -webkit-mask-size: cover;
     width: 30px;
     height: 30px;
@@ -804,9 +800,7 @@ border-radius: 0 0 0 4px;
   .stat:nth-child(2)
   .value:after {
     content: '';
-    mask: var(--saiko-manga-icon) no-repeat 50% 50%;
     -webkit-mask: var(--saiko-manga-icon) no-repeat 50% 50%;
-    mask-size: cover;
     -webkit-mask-size: cover;
     width: 30px;
     height: 30px;
@@ -1146,9 +1140,7 @@ display: none !important;
 }
 .genres:after {
     content: '';
-    mask: url('https://i.imgur.com/KIoS2u2.png') no-repeat 50% 50%;
     -webkit-mask: url('https://i.imgur.com/KIoS2u2.png') no-repeat 50% 50%;
-    mask-size: cover;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
@@ -1207,9 +1199,7 @@ a.favourite.media.hohExtraFav {
 > div 
 > a:nth-child(1):after {
     content: '';
-    mask: var(--saiko-owner-icon) no-repeat 50% 50%;
     -webkit-mask: var(--saiko-owner-icon) no-repeat 50% 50%;
-    mask-size: cover;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 24px 8px;
