@@ -1083,6 +1083,8 @@ display: none !important;
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
     content: "Listening to Spotify" !important;
     font-size: 1.4rem;
+    font-family: 'Overpass';
+    font-weight: 700;
 }
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2 {
     font-size: 0;
