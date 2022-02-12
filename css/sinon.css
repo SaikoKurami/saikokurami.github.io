@@ -55,7 +55,7 @@
     /*Spotfy*/
     --spotfy-url-profile: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4qpaju6tda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
     --spotfy-error-playing: url(https://i.imgur.com/9kpSOR5.png);
-    --spotfy-profile: url(https://i.imgur.com/fYKZslQ.png);
+    --spotfy-profile: url(https://i.imgur.com/dCHueuQ.png);
     --spotfy-logo: url('https://i.imgur.com/KIoS2u2.png');
     --spotfy-background-color: rgb(23, 36, 54);
     --spotfty-shadow: 0px 0px 7px 0px rgb(0 0 0 / 32%);
@@ -1160,10 +1160,10 @@ display: none !important;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
-    margin-left: -32px;
-    margin-top: 125px;
+    margin-left: -45.5px;
+    margin-top: 110px;
     overflow: overlay;
-    transform: scale(0.2);
+    transform: scale(0.12);
     z-index: 5;
     opacity: 0;
     transition: var(--saiko-transition-fast);
