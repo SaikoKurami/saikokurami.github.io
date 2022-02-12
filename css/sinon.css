@@ -57,7 +57,7 @@
     --spotfy-error-playing: url(https://i.imgur.com/9kpSOR5.png);
     --spotfy-logo: url('https://i.imgur.com/KIoS2u2.png');
     --spotfy-background-color: rgb(23, 36, 54);
-    --spofty-shadow: 0px 0px 7px 0px rgb(0 0 0 / 32%);
+    --spotfty-shadow: 0px 0px 7px 0px rgb(0 0 0 / 32%);
     --spotfy-border: 4px solid rgba(var(--saiko-light-gray), 0.2);
     /*Preferences*/
     --saiko-animation-normal: 1s;
