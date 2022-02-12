@@ -1136,7 +1136,7 @@ display: none !important;
     width: 328px;
     height: 96px;
     margin-top: 9px;
-    box-shadow: var(--spotfy-shadow);
+    box-shadow: var(--spotfty-shadow);
     border-radius: 4px;
 }
 .genres > div:nth-child(1):after {
