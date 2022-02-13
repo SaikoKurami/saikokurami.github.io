@@ -1204,13 +1204,13 @@ display: none !important;
     background: var(--spotfy-background-color);
     height: 43px;
     margin-top: 307px;
-    margin-left: 144px;
-    width: 63px;
+    margin-left: 152px;
+    width: 56px;
     z-index: 4;
     position: absolute;
     display: inline-block;
 }
-/*Enhanced liked users overview*/
+Enhanced liked users overview*/
 .actions > div.action.likes.hohHandledLike.hohLoadedLikes:hover .action.likes.hohHandledLike > div > div.users {
     display: flex !important;
     flex-direction: row;
