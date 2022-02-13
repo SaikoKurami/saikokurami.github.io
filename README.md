@@ -1,2 +1,2 @@
 # EMPTY
-Leave, there's nothing here yet.
+Leave! there's nothing here yet.
