@@ -222,7 +222,7 @@ display: none !important;
 */
 
 .nav .wrap .search:hover {
-    box-shadow: 0 1px 4px rgb(var(--color-foreground-grey)), 0 0 0 3px rgb(var(--saiko-dirty-white));
+        border: 3px solid rgba(var(--saiko-white),0.1);
     padding: 7px;
     transition: var(--saiko-transition-faster);
 }
