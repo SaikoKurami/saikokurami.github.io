@@ -1196,6 +1196,20 @@ display: none !important;
     transform: scale(0.3);
     z-index: 4;
 }
+.overview > .section 
+> .about 
+> .content-wrap 
+> .markdown b[href="Spotfy"]::before {
+    content: '';
+    background: var(--spotfy-background);
+    height: 43px;
+    margin-top: 307px;
+    margin-left: 144px;
+    width: 63px;
+    z-index: 4;
+    position: absolute;
+    display: inline-block;
+}
 /*Enhanced liked users overview*/
 .actions > div.action.likes.hohHandledLike.hohLoadedLikes:hover .action.likes.hohHandledLike > div > div.users {
     display: flex !important;
