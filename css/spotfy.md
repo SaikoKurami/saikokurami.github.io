@@ -17,6 +17,7 @@
 }
 ```
 5. This is a **sample** on how it looks like when it's completely filled out.🙀
+<br>
 Now you're done! all you have to do is copy this and paste it on your **custom CSS**.
 ```css
 @import url("https://saikokurami.github.io/css/spotfy.css");
