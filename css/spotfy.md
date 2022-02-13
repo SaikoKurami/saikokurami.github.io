@@ -23,7 +23,7 @@ Now you're done! all you have to do is copy this and paste it on your **custom C
 @import url("https://saikokurami.github.io/css/spotfy.css");
 
 :root{
-    --spotfy-url-profile: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4qpaju6tda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
+    --spotfy-url-profile: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4gdfda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
     --spotfy-bacground-color: rgb(45, 45, 45);
     --spotfy-logo-color: rgb(254, 121, 0);
     --spotfy-border: 2px solid rgb(254 121 0);
