@@ -1,6 +1,7 @@
 # Spotify Feature on your Anilist by Chris (SaikoKurami)
-<br><br><img width="500px" src="https://i.imgur.com/SN7R6Q3.png"></br></br>
 *Warning: This will replace on your Genres section.*
+<br><br><img width="500px" src="https://i.imgur.com/SN7R6Q3.png"></br></br>
+
 
 **Instruction**
 1.  Go to this **[spotify-github-profile site](https://spotify-github-profile.vercel.app/api/login)** to grant permission to get your markdown code of your Spotify.
