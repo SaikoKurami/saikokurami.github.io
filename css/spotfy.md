@@ -16,7 +16,7 @@
     --spotfy-font-title: 1.4rem; /*don't change the font size if you have the same as the original*/
 }
 ```
-5. This is a **sample** on how it looks like when it's completely filled out. <:emiliahug:894510675454492672> 
+5. This is a **sample** on how it looks like when it's completely filled out.
 Now you're done! all you have to do is copy this and paste it on your **custom CSS**.
 ```css
 @import url("https://saikokurami.github.io/css/spotfy.css");
