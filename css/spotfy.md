@@ -17,7 +17,8 @@
 }
 ```
 5. This is a **sample** on how it looks like when it's completely filled out. <:emiliahug:894510675454492672> 
-Now you're done! all you have to do is copy this and paste it on your **custom CSS**.  ```css
+Now you're done! all you have to do is copy this and paste it on your **custom CSS**.
+```css
 @import url("https://saikokurami.github.io/css/spotfy.css");
 
 :root{
