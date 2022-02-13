@@ -30,7 +30,7 @@
     --spotfy-font-title: 1.4rem;
 }
 ```
-6.Now you're done! all you have to do is copy it and paste it on your **custom CSS**.
+6.Now you're done! all you have to do is copy it and paste on your **custom CSS**.
 I hope you like it! ✨
 
 
