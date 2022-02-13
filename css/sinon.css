@@ -1201,7 +1201,7 @@ display: none !important;
 > .content-wrap 
 > .markdown b[href="Spotfy"]::before {
     content: '';
-    background: var(--spotfy-background);
+    background: var(--spotfy-background-color);
     height: 43px;
     margin-top: 307px;
     margin-left: 144px;
