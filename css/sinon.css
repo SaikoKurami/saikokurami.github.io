@@ -1211,23 +1211,23 @@ display: none !important;
     display: inline-block;
 }
 Enhanced liked users overview*/
-.actions > div.action.likes.hohHandledLike.hohLoadedLikes:hover .action.likes.hohHandledLike > div > div.users {
+.action.likes:hover .action.likes .users {
     display: flex !important;
     flex-direction: row;
     justify-content: flex-end;
     transition: 0.3s;
 }
-.action.likes.hohHandledLike > div > div.users {
+.action.likes .users {
     animation: fadeInRight;
     animation-duration: var(--saiko-animation-fast);
     transition: var(--saiko-transition-fast);
     background: none !important;
 }
-.action.likes.hohHandledLike > div > div.users > a {
+.action.likes .users > a {
     border-radius: 50%;
     filter: saturate(0.3);
 }
-.action.likes.hohHandledLike > div > div.users > a:hover {
+.action.likes .users > a:hover {
     filter: hue-rotate(340deg);
     transition: 0.3s;
     transform: scale(0.91);
