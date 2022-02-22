@@ -423,14 +423,14 @@ display: none;
 @media (min-width: 1540px) {
 .activity-anime_list .wrap:hover,
 .activity-manga_list .wrap:hover {
-    max-height: 150px;
+    max-height: 200px;
     }
 }
 
 @media (min-width: 1540px) {
 .activity-anime_list .wrap:hover .cover,
 .activity-manga_list .wrap:hover .cover {
-    max-height: 150px;
+    max-height: 200px;
     transition: var(--saiko-transition-faster);
     }
 }
