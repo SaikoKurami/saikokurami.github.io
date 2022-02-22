@@ -291,54 +291,6 @@ display: none;
     filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
-/*Banner Glitch*/
-.banner::hover{
-    animation: saikoGlitch;
-    animation-duration: 1s;
-}
-@keyframes saikoGlitch{
-    0%{
-        background-image: url(https://i.imgur.com/tKDFlpn.png);
-    }
-    9%{
-        background-image: url(https://i.imgur.com/tKDFlpn.png);
-    }
-    10%{
-        background-image: url(https://i.imgur.com/tKDFlpn.png);
-    }
-    24%{
-        background-image: url(https://i.imgur.com/tKDFlpn.png);
-    }
-    25%{
-        background-image: url(https://i.imgur.com/zWuKVC8.jpg);
-    }
-    49%{
-        background-image: url(https://i.imgur.com/zWuKVC8.jpg);
-    }
-    50%{
-        background-image: url(https://i.imgur.com/NDsurw2.png);
-    }
-    74%{
-        background-image: url(https://i.imgur.com/NDsurw2.png);
-    }
-    75%{
-        background-image: url(https://i.imgur.com/eO8w3HF.png);
-    }
-    89%{
-        background-image: url(https://i.imgur.com/eO8w3HF.png);
-    }
-    90%{
-        background-image: url(https://i.imgur.com/zWuKVC8.jpg);
-    }
-    99%{
-        background-image: url(https://i.imgur.com/zWuKVC8.jpg);
-    }
-    100%{
-        background-image: url(https://i.imgur.com/04nIPz4.png);
-    }
-}
-
-}
 .name[data-v-de544782],
 .name[data-v-5445dac8] {
     color: rgb(var(--saiko-white));
