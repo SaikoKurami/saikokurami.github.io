@@ -35,6 +35,7 @@
     --saiko-white: 255, 255, 255;
     --saiko-dirty-white: 219, 219, 219;
     --saiko-transparent: rgb(0 0 0 / 0%);
+    --saiko-border: 39, 46, 54;
     /*Customize image*/
     --saiko-background: url(https://i.imgur.com/fzpFvaS.png);
     --saiko-cursor: url(https://i.imgur.com/lO6CsbT.png);
@@ -222,7 +223,7 @@ display: none !important;
 */
 
 .nav .wrap .search:hover {
-        border: 3px solid rgba(var(--saiko-white),0.1);
+    border: 3px solid rgba(var(--saiko-border));
     padding: 7px;
     transition: var(--saiko-transition-faster);
 }
