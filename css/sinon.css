@@ -1137,7 +1137,7 @@ display: none !important;
     background: var(--spotfy-background-color);
     width: 328px;
     height: 96px;
-    margin-top: 9px;
+    margin-top: 13px;
     box-shadow: var(--spotfty-shadow);
     border-radius: 4px;
 }
