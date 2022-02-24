@@ -865,21 +865,27 @@ border-radius: 0 0 0 4px;
 }
 
 /*Bio Favourites*/
-.about a:nth-child(1) > img,
-.about a:nth-child(2) > img,
-.about a:nth-child(3) > img,
-.about a:nth-child(4) > img {
+.about center > a:nth-child(1) > img,
+.about center > a:nth-child(2) > img,
+.about center > a:nth-child(3) > img,
+.about center > a:nth-child(4) > img,
+.about center > p:nth-child(16) > a:nth-child(2) > img,
+.about center > p:nth-child(16) > a:nth-child(4) > img {
     transition: 0.1s;
 }
 
-.about a:nth-child(1) > img:hover,
-.about a:nth-child(2) > img:hover,
-.about a:nth-child(3) > img:hover,
-.about a:nth-child(4) > img:hover {
+.about center > a:nth-child(1) > img:hover,
+.about center > a:nth-child(2) > img:hover,
+.about center > a:nth-child(3) > img:hover,
+.about center > a:nth-child(4) > img:hover {
     transform: scale(0.94);
     transition: var(--saiko-transition-fast);
 }
-
+.about center > p:nth-child(16) > a:nth-child(2) > img:hover,
+.about center > p:nth-child(16) > a:nth-child(4) > img:hover {
+    transform: scale(0.98);
+    transition: var(--saiko-transition-faster);
+}
 .favourite:hover {
    transform: scale(1.1);
    position: static;
