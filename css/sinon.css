@@ -869,14 +869,14 @@ border-radius: 0 0 0 4px;
 .about a:nth-child(2) > img,
 .about a:nth-child(3) > img,
 .about a:nth-child(4) > img {
-    transition: var(--saiko-transition-fast);
+    transition: 0.1s;
 }
 
 .about a:nth-child(1) > img:hover,
 .about a:nth-child(2) > img:hover,
 .about a:nth-child(3) > img:hover,
 .about a:nth-child(4) > img:hover {
-    transform: scale(1.05);
+    transform: scale(0.94);
     transition: var(--saiko-transition-fast);
 }
 
