@@ -1,7 +1,7 @@
 /*
     Owned and written by Chris (SaikoKurami)
     * https//anilist.co/user/SaikoKurami
-    Copyright ©️ 2021 - Sinon Custom CSS V.1.2.0
+    Copyright ©️ 2021 - Sinon Custom CSS V.1.2.1
     * licensed under the MIT License
 
     * Please Do not Copy this CSS or I will hunt you!
@@ -501,6 +501,43 @@ Activity cover background (///￣皿￣)○～
 > div.list.small 
 > a {
     box-shadow: 0px 0 10px 20px rgb(0 0 0 / 10%);
+}
+
+
+.details .status {
+  transition: 1s;
+}
+.activity-entry .wrap:hover .details .status {
+  margin-left: -42px;
+  transition: 1s;
+}
+.list.small > a:before{
+  transition: 0.5s;
+}
+.activity-entry .wrap:hover .list.small > a:before {
+  width: 30%;
+  top: 0 !important;
+  left: 0 !important;
+  -webkit-filter: blur(2px);
+}
+.list.small .cover{
+  transition: 0.5s;
+}
+.activity-entry .wrap:hover .list.small .cover{
+  margin-right: 50px;
+  transition: 0.5s !important;
+}
+.details .status {
+  text-shadow: 0px 0px 4px rgb(21 31 46);
+}
+@media (min-width: 1540px){
+  .activity-entry .wrap:hover .list.small 
+    > div
+    > div.status
+    > a {
+    width: 290px;
+    transition: 1s;
+  }
 }
 
 /* 
