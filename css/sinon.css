@@ -420,12 +420,14 @@ display: none;
     }
 }
 
+/*
 @media (min-width: 1540px) {
 .activity-anime_list .wrap:hover,
 .activity-manga_list .wrap:hover {
     max-height: 200px;
     }
 }
+*/
 
 @media (min-width: 1540px) {
 .activity-anime_list .wrap:hover .cover,
@@ -526,7 +528,8 @@ Hide Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
         width: 0 !important;
     }
 }
-        
+
+/*        
 .activity-anime_list .wrap:hover .list.small 
 > div
 > div.status 
@@ -538,6 +541,7 @@ Hide Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
 > a {
     white-space: normal;
 }
+*/
 
 .full-width.activity-anime_list 
 > .wrap 
