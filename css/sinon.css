@@ -528,7 +528,7 @@ Activity cover background (///￣皿￣)○～
   transition: 0.5s !important;
 }
 .details .status {
-  text-shadow: 0px 0px 4px rgb(21 31 46);
+    text-shadow: 0px 0px 4px rgb(21 31 46 / 86%);
 }
 @media (min-width: 1540px){
   .activity-entry .wrap:hover .list.small 
@@ -538,6 +538,12 @@ Activity cover background (///￣皿￣)○～
     width: 290px;
     transition: 1s;
   }
+}
+.activity-entry .wrap:hover .details .status{
+  color: rgb(var(--saiko-white));
+}
+.activity-entry .wrap:hover .list.small > div > div.status > a.title{
+  color: rgb(var(--color-text)) !important;
 }
 
 /* 
