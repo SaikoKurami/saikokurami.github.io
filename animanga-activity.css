@@ -1,0 +1,44 @@
+
+.list.small 
+    > div
+    > div.status
+    > a {
+    white-space: nowrap;
+    width: 222px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    transition: 1s ease-in-out;
+}
+.activity-entry .wrap:hover .list.small 
+> div
+> div.status
+> a {
+  white-space: normal;
+  transition: 1s ease-in-out;
+}
+.activity-entry .wrap:hover .list.small > a {
+  z-index: -1;
+  filter: blur(3px);
+  width: 390px;
+  margin-top: -106px;
+  transition: 1s ease-in-out;
+}
+.activity-entry .wrap:hover {
+  background: linear-gradient(298deg, rgba(20,29,45,1) 0%, rgba(21,30,46,0.8407738095238095) 17%, rgba(21,30,46,0.6839110644257703) 57%, rgba(21,31,46,0.17690826330532217) 100%);
+  transition: 1s ease-in-out;
+  box-shadow: 0px 0 5px 5px rgb(0 0 0 / 7%);
+}
+.activity-entry .wrap:hover .list.small .status a.title {
+  color: rgb(220 220 220) !important;
+  font-weight: 400 !important;
+  transition: 1s ease-in-out;
+}
+.activity-entry .wrap:hover .list.small {
+  grid-template-columns: 30px auto;
+  transition: 1s ease-in-out;
+}
+.activity-entry .wrap:hover .list.small > div > div.status {
+  color: rgb(255 255 255);;
+  font-weight: 500;
+}
