@@ -1399,7 +1399,7 @@ backdrop-filter: blur(2px) !important;
     animation-iteration-count: 1;
 }
 
-.about a:nth-child(17)::after {
+.about a:nth-child(16)::after {
    animation: fadeInBottomLeft;
    animation-duration: var(--saiko-animation-normal);
 }
