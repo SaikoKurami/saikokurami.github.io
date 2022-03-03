@@ -1286,7 +1286,15 @@ Enhanced liked users overview*/
     transform: scale(0.91);
     border: 1px solid rgb(var(--saiko-cyan));
 }
-
+.activity-markdown .markdown a[href="https://sptfy.com/70ba"]::before {
+    content: url(https://i.imgur.com/PH1dXVL.png);
+    -webkit-mask-size: auto;
+    position: absolute;
+    bottom: -14px;
+    left: -65px;
+    transform: scale(0.3);
+    z-index: 2;
+}
 /*SINON COVER*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
