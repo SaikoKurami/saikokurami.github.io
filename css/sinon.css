@@ -350,12 +350,9 @@ display: none;
 /*===============================================
     Overview
 ===============================================*/    
-.time .action.active[data-v-77aecf0c] {
-    color: rgb(var(--saiko-cyan));
-}
 
-.time .action.active[data-v-77aecf0c] {
-    color: rgba(var(--saiko-cyan));
+.time .action.active {
+    color: rgba(var(--saiko-cyan)) !important;
     animation: swing;
     animation-duration: var(--saiko-animation-normal);
 }
