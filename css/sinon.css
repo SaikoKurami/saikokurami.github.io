@@ -1295,6 +1295,9 @@ Enhanced liked users overview*/
     transform: scale(0.3);
     z-index: 2;
 }
+.activity-entry.preview.activity-text .text {
+    padding-bottom: 35px;
+}
 /*SINON COVER*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
