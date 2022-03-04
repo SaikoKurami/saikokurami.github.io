@@ -1295,6 +1295,15 @@ Enhanced liked users overview*/
     transform: scale(0.3);
     z-index: 2;
 }
+.activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]::before {
+    content: url(https://i.imgur.com/0q7p4Dq.png);
+    -webkit-mask-size: auto;
+    position: absolute;
+    bottom: -14px;
+    left: -80px;
+    transform: scale(0.3);
+    z-index: 2;
+}
 .activity-entry.preview.activity-text .text {
     padding-bottom: 35px !important;
 }
