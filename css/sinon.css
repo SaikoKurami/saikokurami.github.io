@@ -1296,7 +1296,7 @@ Enhanced liked users overview*/
     z-index: 2;
 }
 .activity-entry.preview.activity-text .text {
-    padding-bottom: 35px;
+    padding-bottom: 35px !important;
 }
 /*SINON COVER*/
 
