@@ -667,6 +667,10 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     margin-top: -2px;
     margin-right: 1px;
 }
+.mod-badge-wrap.donator-badge {
+    background: none !important;
+    color: rgb(var(--saiko-cyan));
+}
 /*
  Change name spacing and color 
 */
@@ -686,7 +690,8 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 > div.text 
 > div.header
 > a.avatar,
-#nav > div.wrap > div.user > div > div.avatar {
+.wrap > div.user > div > div.avatar,
+.reply .avatar {
 background-color: rgb(var(--color-foreground-grey));
     border-radius: 50px;
 }
