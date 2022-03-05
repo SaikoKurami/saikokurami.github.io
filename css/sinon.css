@@ -664,8 +664,8 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     margin-right: 42px;
 }
 .mod-badge svg {
-    margin-top: -2px;
-    margin-right: 1px;
+    margin-top: -5px !important;
+    margin-right: 2px !important;
 }
 .mod-badge-wrap.donator-badge {
     background: none !important;
