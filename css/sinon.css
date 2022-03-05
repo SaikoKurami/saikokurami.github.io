@@ -660,8 +660,12 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
     display: none !important;
 }
 .mod-badge {
-    margin-top: 2px;
-    margin-right: 90px !important;
+    margin-top: 1px;
+    margin-right: 42px;
+}
+.mod-badge svg {
+    margin-top: -2px;
+    margin-right: 1px;
 }
 /*
  Change name spacing and color 
