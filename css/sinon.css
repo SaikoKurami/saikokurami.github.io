@@ -698,11 +698,13 @@ background-color: rgb(var(--color-foreground-grey));
 
 /*Spoiler*/
 .markdown .markdown-spoiler:before {
-    color: rgb(var(--saiko-cyan));
-    background: rgb(var(--color-background));
-    border-radius: 3px;
+    color: rgb(var(--color-background));
+    background: rgb(var(--saiko-cyan));
+    border-radius: 40px;
     content: "S P O I L E R";
-    padding: 0 16px;
+    padding: 2px 16px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /*load-more*/
