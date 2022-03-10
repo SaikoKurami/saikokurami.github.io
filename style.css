@@ -116,10 +116,8 @@ body{
     font-family: 'Poppins', Overpass, sans-serif;
 }
 .box .social{
-    display: flex;
-    margin-top: 10px;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .box .social a {
     font-size: 26px;
@@ -152,10 +150,8 @@ body{
     color: rgb(var(--sinon-white));
 }
 .box .social2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .box .social2 a {
     font-size: 26px;
@@ -215,7 +211,8 @@ body{
     height: 110px;
     margin: 8px;
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     top: 0px;
     line-height: 48px;
     overflow: hidden;
@@ -227,7 +224,6 @@ body{
     font-size: 26px;
     color: rgb(var(--sinon-cyan));
     background: rgb(var(--color-background));
-    width: 900px;
     height: 90px;
     border-radius: 8px;
     margin: 8px;
