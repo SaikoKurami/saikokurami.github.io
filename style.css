@@ -39,7 +39,7 @@ body{
     font-family: 'Poppins', Overpass, sans-serif; 
 }
 .profile{
-    width: 980px;
+    width: 900px;
     border-radius: 4px;
     padding: 40px;
     text-align: center;
@@ -51,7 +51,7 @@ body{
     animation-duration: 1s;
 }
 .header {
-    width: 900px;
+    width: inherit;
     border-radius: 6px 6px 0 0;
     height: 120px;
     z-index: -1;
@@ -70,7 +70,7 @@ body{
     z-index: 5;
 }
 .box{
-    width: 900px;
+    width: inherit;
     border-radius: 0 0 6px 6px;
     background: rgb(var(--color-foreground));
     padding: 40px;
