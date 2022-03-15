@@ -145,47 +145,6 @@ body{
     font-weight: 600;
     color: rgb(var(--sinon-white));
 }
-.box .social2{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.box .social2 a {
-    font-size: 26px;
-    color: rgb(var(--sinon-cyan));
-    background: rgb(var(--color-background));
-    width: 200px;
-    height: 45px;
-    border-radius: 8px;
-    margin: 8px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 0px;
-    line-height: 48px;
-    overflow: hidden;
-    transition: 0.1s;
-    border: 3px solid rgba(var(--color-foreground));
-}
-.box .social2 a:before{
-    display: block;
-    
-}
-.box .social2 span{
-    font-size: 1rem;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 2px;
-    font-weight: 600;
-    color: rgb(var(--sinon-white));
-}
-.box .social a:hover,
-.box .social2 a:hover {
-    background: rgb(var(--color-foreground));
-    border:  3px solid rgba(var(--sinon-cyan));
-    transform: scale(0.95) !important;
-    transition: 0.5s;
-}
 .box-img:hover{
     transform: scale(1.1);
     border: 6px solid rgb(var(--color-background));
