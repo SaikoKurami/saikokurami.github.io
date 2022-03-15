@@ -145,6 +145,12 @@ body{
     font-weight: 600;
     color: rgb(var(--sinon-white));
 }
+.box .social a:hover {
+    background: rgb(var(--color-foreground));
+    border:  3px solid rgba(var(--sinon-cyan));
+    transform: scale(0.95) !important;
+    transition: 0.5s;
+}
 .box-img:hover{
     transform: scale(1.1);
     border: 6px solid rgb(var(--color-background));
