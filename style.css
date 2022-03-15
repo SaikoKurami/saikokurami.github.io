@@ -75,14 +75,20 @@ body{
 }
 .hyper {
     position: absolute;
-    margin-left: -360px;
-    margin-top: -30px;
+    margin-left: -23px;
+    margin-top: -25px;
+    height: 36px;
+}
+.hyper img{
     filter: drop-shadow(0px 0px 8px rgb(69 221 192));
 }
 .stray-admin {
     position: absolute;
-    margin-left: -325px;
-    margin-top: -32px;
+    margin-left: 11px;
+    margin-top: -27px;
+    height: 42px;
+}
+.stray-admin img{
     filter: drop-shadow(0px 0px 8px rgb(255 192 0));
 }
 .box-img{
@@ -241,4 +247,49 @@ body{
     justify-content: flex-end;
     color: rgb(var(--sinon-light-gray));
     font-weight: 100;
+}
+/*tool-tip*/
+.stray-admin::before,
+.stray-admin::after,
+.hyper::before,
+.hyper::after{
+    --scale: 0;
+    --arrow-size: 7px;
+    --tooltip-color: rgb(40 54 74);
+
+    position: absolute;
+    top: -0.25rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transition: 150ms transform;
+    transform-origin: bottom center;
+}
+.stray-admin::before,
+.hyper::before{
+    --translate-y: calc(-100% - var(--arrow-size));
+
+    content: attr(data-tooltip);
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+    text-align: center;
+    width: max-content;
+    /*max-width: 100%;*/
+    background: var(--tooltip-color);
+    font-size: 0.6rem;
+}
+.stray-admin:hover::before,
+.stray-admin:hover::after,
+.hyper:hover::before,
+.hyper:hover::after{
+    --scale: 1;
+}
+.stray-admin::after,
+.hyper::after{
+    --translate-y: calc(-1 * var(--arrow-size));
+
+    content: '';
+    border: var(--arrow-size) solid transparent;
+    border-top-color: var(--tooltip-color);
+    transform-origin: top center;
 }
