@@ -51,7 +51,7 @@ body{
     animation-duration: 1s;
 }
 .header {
-    width: 901px;
+    width: 888px;
     border-radius: 6px 6px 0 0;
     height: 120px;
     z-index: -1;
@@ -83,12 +83,12 @@ body{
 }
 .hyper {
     position: absolute;
-    margin-left: -370px;
+    margin-left: -360px;
     margin-top: -30px;
 }
 .stray-admin {
     position: absolute;
-    margin-left: -335px;
+    margin-left: -325px;
     margin-top: -32px;
 }
 .box-img{
@@ -209,7 +209,6 @@ body{
     color: rgb(var(--sinon-cyan));
     width: 885px;
     height: 110px;
-    margin: 8px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -217,6 +216,7 @@ body{
     line-height: 48px;
     overflow: hidden;
     transition: 0.1s;
+    padding-top: 5px;
     padding-bottom: 15px;
     border-bottom: 2px solid rgba(var(--sinon-light-gray), 0.2);
 }
