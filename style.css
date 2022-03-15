@@ -117,6 +117,7 @@ body{
 }
 .box .social{
     display: grid;
+    padding-top: 5px;
     grid-template-columns: repeat(4,1fr);
 }
 .box .social a {
