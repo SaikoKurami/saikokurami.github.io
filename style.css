@@ -200,7 +200,6 @@ body{
 .playlist {
     font-size: 26px;
     color: rgb(var(--sinon-cyan));
-    width: 885px;
     height: 110px;
     position: relative;
     display: grid;
