@@ -261,7 +261,6 @@ body{
 }
 .playlist h5::after{
     content: '';
-  mask: url('https://i.imgur.com/XqtidMA.png') no-repeat 50% 50%;
     -webkit-mask: url('https://i.imgur.com/XqtidMA.png') no-repeat 50% 50%;
     width: 30px;
     height: 30px;
