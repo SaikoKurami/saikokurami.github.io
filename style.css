@@ -256,7 +256,6 @@ body{
     --scale: 0;
     --arrow-size: 7px;
     --tooltip-color: rgb(40 54 74);
-
     position: absolute;
     top: -0.25rem;
     left: 50%;
@@ -267,14 +266,13 @@ body{
 .stray-admin::before,
 .hyper::before{
     --translate-y: calc(-100% - var(--arrow-size));
-
     content: attr(data-tooltip);
     color: white;
     padding: .5rem;
     border-radius: .3rem;
     text-align: center;
     width: max-content;
-    /*max-width: 100%;*/
+    pointer-events: none;
     background: var(--tooltip-color);
     font-size: 0.6rem;
 }
