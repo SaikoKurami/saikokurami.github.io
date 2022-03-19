@@ -227,7 +227,7 @@ body{
 }
 .playlist h5::after{
     content: '';
-    -webkit-mask: url('https://raw.githubusercontent.com/SaikoKurami/saikokurami.github.io/main/assets/spotify_42px.png') no-repeat 50% 50%;
+    -webkit-mask: url('https://saikokurami.github.io/assets/spotify_42px.png') no-repeat 50% 50%;
     width: 30px;
     height: 30px;
     left: 260px;
