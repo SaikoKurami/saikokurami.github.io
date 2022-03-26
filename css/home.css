@@ -1,0 +1,300 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+ /*Color Scheme*/
+    --saiko-cyan: 115, 190, 203;
+    --saiko-gold: 249, 189, 4;
+    --saiko-gray: 40, 56, 77;
+    --saiko-light-gray: 65, 81, 100;
+    --saiko-dark-gray: 40, 56, 77;
+    --saiko-white: 255, 255, 255;
+    --saiko-dirty-white: 219, 219, 219;
+    --saiko-transparent: rgb(0 0 0 / 0%);
+    --saiko-border: 39, 46, 54;
+/*Preferences*/
+    --saiko-animation-normal: 1s;
+    --saiko-animation-fast: 0.5s;
+    --saiko-transition-normal: 1s;
+    --saiko-transition-fast: 0.5s;
+    --saiko-transition-faster: 0.2s;
+    --saiko-transition-slow: 2s;
+/*AL logo*/
+    --saiko-anilist-logo: url(https://files.catbox.moe/nyzorc.svg);
+}
+
+.home {
+    font-family: 'Poppins', Overpass, sans-serif;
+
+    --color-blue: 115, 190, 203 !important;
+    --color-red: var(--color-blue) !important;
+}
+.home .activity-entry .avatar {
+    border-radius: 50%;
+    background-color: rgb(var(--color-foreground-grey));
+}
+
+.home .activity-entry.activity-anime_list .list .avatar,
+.home .activity-entry.activity-manga_list .list .avatar {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1 !important;
+    background-color: rgb(var(--color-foreground-grey));
+}
+
+.home .activity-markdown {
+    border-bottom: 1px solid rgba(var(--color-text-lighter), 0.2);
+}
+
+.home .entry-dropdown {
+    left: 0;
+    top: 0;
+}
+
+.home .activity-entry.activity-text .wrap .actions {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home .activity-text .wrap .time {
+    left: 72px;
+    top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home .text .name {
+   margin-top: -15px;
+}
+
+.home .text .donator-badge {
+    color: rgb(var(--color-blue));
+    background: none !important;
+    display: block;
+    overflow: hidden;
+    right: 18px;
+    top: 16px !important;
+    position: absolute !important;
+}
+.home .activity-entry.activity-anime_list .time,
+.home .activity-entry.activity-manga_list .time,
+.home .donator-badge {
+    transition: 0.5s;
+}
+
+.home .wrap:hover .donator-badge {
+    transition: 1s;
+    right: 90px;
+}
+
+.home .activity-entry.activity-anime_list .wrap:hover .time,
+.home .activity-entry.activity-manga_list .wrap:hover .time {
+    transition: 0.5s;
+    right: 95px;
+}
+
+.home .time {
+    right: 20px;
+    top: 15px;
+}
+
+.home .donator-badge.rainbow {
+    display: none;
+}
+
+/* icons */
+
+.list-previews > div:nth-child(1) > .section-header:before {
+    content: '\f144';
+    font-family: 'FontAwesome';
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+.list-previews > div:nth-child(2) > div.section-header:before {
+    content: '\f26c';
+    font-family: 'FontAwesome';
+    margin-left: -8px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.list-previews > div:nth-child(3) > div.section-header:before {
+    content: '\f02d';
+    font-family: 'FontAwesome';
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+/* cover */
+
+.home .activity-entry.activity-anime_list .donator-badge,
+.home .activity-entry.activity-manga_list .donator-badge {
+    background: none;
+    margin-top: -5px;
+    left: 76px;
+}
+
+.home .activity-entry.activity-anime_list .status,
+.home .activity-entry.activity-manga_list .status {
+    margin-top: 15px;
+    white-space: nowrap;
+    width: 500px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.home .activity-entry.activity-anime_list .details .name,
+.home .activity-entry.activity-manga_list .details .name {
+    position: absolute;
+    top: 56px;
+    text-align: initial;
+    padding: 6px 15px 6px 37px;
+    border-radius: 40px;
+    left: 100px;
+    background: rgb(var(--color-foreground-grey));
+}
+
+.home .activity-entry.activity-anime_list .wrap,
+.home .activity-entry.activity-manga_list .wrap {
+    background: linear-gradient(90deg, rgba(2,0,36,0) -2%, rgba(19,28,45,0.6558998599439776) 11%, rgba(21,31,46,0.983631) 22%, rgba(21,31,46,1) 100%);
+    max-height: 110px;
+}
+
+.home .activity-entry .cover {
+    border-radius: 6px;
+    box-shadow: 10px 0px 10px 20px rgb(0 0 0 / 10%);
+}
+.home .activity-entry.activity-anime_list .cover:before,
+.home .activity-entry.activity-manga_list .cover:before {
+    content: "";
+    background: inherit;
+    width: 20%;
+    height: 144px;
+    display: block;
+    z-index: -3;
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    -webkit-filter: blur(1.7px);
+}
+.home .activity-entry > .wrap > .time:hover {
+    background: none !important;
+}
+
+/*===============================================
+    Top Navigation
+===============================================*/
+
+.nav {
+    background: rgb(var(--color-foreground));
+    color: rgb(var(--saiko-dirty-white));
+}
+
+.nav[data-v-4fbac4e1] {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    left: calc((100% - 70%) / 2);
+    top: 0%;
+    width: 70%;
+    border-radius: 0 0 70px 70px;
+}
+    .site-theme-dark .nav-unscoped.transparent {
+    background: rgba(var(--color-foreground));
+    color: rgb(var(--saiko-dirty-white));
+}
+
+.nav .wrap {
+    display: grid;
+    grid-template-columns: 70px auto auto 70px;
+}
+
+.nav .wrap .links {
+    grid-column-start: 3;
+    margin-left: -25px;
+}
+
+.nav .wrap .search {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 10px;
+    background: rgb(var(--color-foreground-grey));
+    border-radius: 35px;
+    width: 90%;
+    cursor: text;
+    font-family: "Overpass";
+}
+
+.nav .wrap .search:after {
+    content: "Search AniList";
+    margin-left: 10px;
+    color: rgb(var(--color-text-lighter));
+}
+
+.nav .wrap .search:hover {
+    border: 3px solid rgba(var(--saiko-border));
+    padding: 7px;
+    transition: var(--saiko-transition-faster);
+}
+
+.nav .wrap .user {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.home .activity-feed .liked {
+    color: rgb(var(--saiko-cyan));
+}
+
+.logo img[data-v-4fbac4e1] {
+    height: 45px;
+    width: 45px;
+}
+
+#nav > div.quick-search.visible > div.input > svg {
+    color: rgb(var(--saiko-cyan));
+}
+
+.quick-search.visible {
+    backdrop-filter: blur(2px);
+}
+
+.site-theme-dark .quick-search {
+    background: rgba(18,22,28,0.5);
+}
+
+.logo > img {
+    content: var(--saiko-anilist-logo);
+}
+
+/*===============================================
+    Removed
+===============================================*/
+
+.activity-manga_list
+> div
+> div
+> div
+> div
+> .title, .hohPinned .list .title[href^="/manga/"] {
+    color: rgb(var(--color-blue)) !important;
+}
+
+.home .hohScore {
+    display: none !important;
+}
+
+/*===============================================
+    Animations
+===============================================*/
+
+.home .button.liked > svg {
+    animation: rubberBand;
+    animation-duration: 1s;
+}
