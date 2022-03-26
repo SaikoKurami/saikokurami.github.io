@@ -248,7 +248,7 @@
     grid-row-start: 1;
 }
 
- .activity-feed .liked {
+ .home .activity-feed .liked {
     color: rgb(var(--saiko-cyan));
 }
 
