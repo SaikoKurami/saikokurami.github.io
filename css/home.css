@@ -191,12 +191,12 @@
     Top Navigation
 ===============================================*/
 
-.home .nav {
+.nav {
     background: rgb(var(--color-foreground));
     color: rgb(var(--saiko-dirty-white));
 }
 
-.home .nav[data-v-4fbac4e1] {
+.nav[data-v-4fbac4e1] {
     display: flex;
     height: 60px;
     justify-content: center;
@@ -210,17 +210,17 @@
     color: rgb(var(--saiko-dirty-white));
 }
 
-.home .nav .wrap {
+.nav .wrap {
     display: grid;
     grid-template-columns: 70px auto auto 70px;
 }
 
-.home .nav .wrap .links {
+.nav .wrap .links {
     grid-column-start: 3;
     margin-left: -25px;
 }
 
-.home .nav .wrap .search {
+.nav .wrap .search {
     grid-column-start: 2;
     grid-row-start: 1;
     padding: 10px;
@@ -231,45 +231,45 @@
     font-family: "Overpass";
 }
 
-.home .nav .wrap .search:after {
+.nav .wrap .search:after {
     content: "Search AniList";
     margin-left: 10px;
     color: rgb(var(--color-text-lighter));
 }
 
-.home .nav .wrap .search:hover {
+.nav .wrap .search:hover {
     border: 3px solid rgba(var(--saiko-border));
     padding: 7px;
     transition: var(--saiko-transition-faster);
 }
 
-.home .nav .wrap .user {
+.nav .wrap .user {
     grid-column-start: 4;
     grid-row-start: 1;
 }
 
-.home  .activity-feed .liked {
+ .activity-feed .liked {
     color: rgb(var(--saiko-cyan));
 }
 
-.home .logo img[data-v-4fbac4e1] {
+.logo img[data-v-4fbac4e1] {
     height: 45px;
     width: 45px;
 }
 
-.home .quick-search.visible > div.input > svg {
+.quick-search.visible > div.input > svg {
     color: rgb(var(--saiko-cyan));
 }
 
-.home  .quick-search.visible {
+ .quick-search.visible {
     backdrop-filter: blur(2px);
 }
 
-.home  .site-theme-dark .quick-search {
+ .site-theme-dark .quick-search {
     background: rgba(18,22,28,0.5);
 }
 
-.home .logo > img {
+.logo > img {
     content: var(--saiko-anilist-logo);
 }
 
