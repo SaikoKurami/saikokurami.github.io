@@ -273,6 +273,12 @@
     content: var(--saiko-anilist-logo);
 }
 
+#myButton::before {
+    content: '\f004';
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    z-index: 12;
+}
 /*===============================================
     Removed
 ===============================================*/
