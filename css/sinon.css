@@ -1,7 +1,7 @@
 /*
     Owned and written by Chris (SaikoKurami)
     * https//anilist.co/user/SaikoKurami
-    Copyright ©️ 2021 - Sinon Custom CSS V.1.2.1
+    Copyright ©️ 2022 - Sinon Custom CSS V.1.2.1
     * licensed under the MIT License
 
     * Please Do not Copy this CSS or I will hunt you!
@@ -670,6 +670,9 @@ a[href="/user/SaikoKurami/"]:not(.avatar):not(.user):not(.link):not(.primary-lin
 .mod-badge-wrap.donator-badge {
     background: none !important;
     color: rgb(var(--saiko-cyan));
+}
+.markdown blockquote {
+    border-left: solid 7px rgb(var(--saiko-cyan));
 }
 /*
  Change name spacing and color 
