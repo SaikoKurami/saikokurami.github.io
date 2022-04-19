@@ -1231,12 +1231,11 @@ display: none !important;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
-    margin-left: -43px;
-    margin-top: 113.5px;
+    transform: translate(178px, 113.5px) scale(0.12);
     overflow: overlay;
-    transform: scale(0.12);
     z-index: 5;
     opacity: 0;
+    display: flex;
     transition: var(--saiko-transition-fast);
 }
 
@@ -1262,10 +1261,8 @@ display: none !important;
     position: absolute;
     padding: 60px 67px;
     background-color: rgb(var(--saiko-cyan));
-    margin-left: 112px;
-    margin-top: 270px;
     overflow: overlay;
-    transform: scale(0.3);
+    transform: translate(112px, 270px) scale(0.3);
     z-index: 4;
 }
 
@@ -1276,9 +1273,8 @@ display: none !important;
     content: '';
     background: var(--spotfy-background-color);
     height: 43px;
-    margin-top: 307px;
-    margin-left: 152px;
     width: 56px;
+    transform: translate(151px, 308px);
     z-index: 4;
     position: absolute;
     display: inline-block;
@@ -1356,11 +1352,10 @@ a.favourite.media.hohExtraFav {
     position: absolute;
     padding: 24px 8px;
     background-color: rgb(var(--saiko-gold));
-    margin-left: -11px;
-    margin-top: -31px;
     overflow: overlay;
-    transform: rotate(333deg);
+    transform: translate(-11px, -31px) rotate(333deg);
 }
+
 
 /*FOOTER PARTICLE BACKGROUND*/
 
