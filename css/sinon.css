@@ -1213,12 +1213,10 @@ display: none !important;
 }
 .genres > div:nth-child(1):after {
     content: var(--spotfy-url-profile);
-    transform: scale(1.3);
     display: inline-block;
     position: absolute;
     background: var(--spotfy-background-color);
-    margin-left: -160px;
-    margin-top: -103px;
+    transform: translate(-160px, -103px) scale(1.3);
     z-index: 3;
 }
 .overview 
