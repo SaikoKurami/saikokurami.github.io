@@ -175,7 +175,7 @@ display: none !important;
     color: rgb(var(--saiko-dirty-white)) !important;
 }
 
-.nav[data-v-4fbac4e1] {
+.nav {
     display: flex;
     height: 60px;
     justify-content: center;
