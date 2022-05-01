@@ -196,7 +196,7 @@
     color: rgb(var(--saiko-dirty-white));
 }
 
-.nav[data-v-4fbac4e1] {
+#nav {
     display: flex;
     height: 60px;
     justify-content: center;
@@ -205,7 +205,8 @@
     width: 70%;
     border-radius: 0 0 70px 70px;
 }
-    .site-theme-dark .nav-unscoped.transparent {
+
+.site-theme-dark .nav-unscoped.transparent {
     background: rgba(var(--color-foreground));
     color: rgb(var(--saiko-dirty-white));
 }
