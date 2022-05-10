@@ -91,6 +91,11 @@ body{
 .stray-admin img{
     filter: drop-shadow(0px 0px 8px rgb(255 192 0));
 }
+.kofi {
+    position: absolute;
+    transform: translate(422px, -13px);
+    filter: hue-rotate(1deg);
+}
 .box-img{
     border-radius: 50%;
     width: 200px;
