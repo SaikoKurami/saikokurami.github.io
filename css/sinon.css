@@ -706,7 +706,7 @@ background-color: rgb(var(--color-foreground-grey));
     border-radius: 40px;
     content: "S P O I L E R";
     padding: 2px 16px;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
