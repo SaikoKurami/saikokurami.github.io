@@ -1180,15 +1180,15 @@ display: none !important;
 .genres > div:nth-child(5) {
     display: none !important;
 }
-.genre-overview.content-wrap.genres > div:nth-child(1) > div.name {
+.genres > div:nth-child(1) > div.name {
     padding: 0 !important;
     height: 0 !important;
     font-size: 0 !important;
 }
-.genre-overview.content-wrap.genres .amount {
+.genres .amount {
     display: none !important;
 }
-.genre-overview.content-wrap.genres:before {
+.genres:before {
     content: var(--spotfy-error-playing);
     transform: scale(0.64);
     display: inline-block;
@@ -1197,7 +1197,7 @@ display: none !important;
     margin-top: -33px;
     z-index: 3;
 }
-.genre-overview.content-wrap.genres > div:nth-child(1):before {
+.genres > div:nth-child(1):before {
     content: '';
     display: inline-block;
     z-index: 20;
