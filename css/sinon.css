@@ -1211,7 +1211,7 @@ display: none !important;
     box-shadow: var(--spotfty-shadow);
     border-radius: 4px;
 }
-.genre-overview.content-wrap.genres > div:nth-child(1):after {
+.genres > div:nth-child(1):after {
     content: var(--spotfy-url-profile);
     display: inline-block;
     position: absolute;
