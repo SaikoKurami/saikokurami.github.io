@@ -1159,6 +1159,42 @@ display: none !important;
     right: 0px;
     min-height: 300px;
 }
+.activity-feed {
+    max-height: 4940px !important;
+    overflow: auto;
+}
+
+.activity-feed-wrap {
+    transform: translateY(374px);
+}
+
+.activity-feed::-webkit-scrollbar {
+display: none;
+}
+
+.activity-feed-wrap:after {
+    content: url(https://i.imgur.com/4oH5KIQ.gif);
+    position: absolute;
+    top: 1px;
+    transform: scale(.605) translate(-351px, -727px);
+}
+
+.activity-feed-wrap:before {
+    content: '';
+    background: rgb(var(--color-foreground));
+    width: 800px;
+    height: 356.938px !important;
+    border-radius: 6px;
+    position: absolute;
+    display: inline-block;
+    transform: translateY(-375px);
+}
+
+.activity-entry.hohPinned.activity-text {
+    position: absolute;
+    transform: translateY(-375px);
+    z-index: 2;
+}
 
 /*Spotify feature made by me! ♪(^∇^*) */
 
