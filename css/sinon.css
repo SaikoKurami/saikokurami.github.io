@@ -1159,6 +1159,11 @@ display: none !important;
     right: 0px;
     min-height: 300px;
 }
+
+.hohPinned.activity-text {
+    height: 356.938px !important;
+}
+
 .activity-feed {
     max-height: 4940px !important;
     overflow: auto;
