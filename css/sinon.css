@@ -1149,6 +1149,7 @@ display: none !important;
 > div {
     margin-bottom: 0 !important;
 }
+
 .hohPinned.activity-text:after {
     content: '';
     position: absolute;
@@ -1160,6 +1161,8 @@ display: none !important;
     min-height: 300px;
 }
 
+
+/*=======*/
 .hohPinned.activity-text {
     height: 356.938px !important;
 }
