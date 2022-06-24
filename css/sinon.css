@@ -1203,6 +1203,11 @@ display: none;
     transform: translateY(-375px);
     z-index: 2;
 }
+.activity-feed {
+    border-top: 3px solid rgba(var(--saiko-light-gray), 0.3);
+    border-bottom: 3px solid rgba(var(--saiko-light-gray), 0.3);
+    padding: 15px 10px 0px 10px;
+}
 
 /*Spotify feature made by me! ♪(^∇^*) */
 
