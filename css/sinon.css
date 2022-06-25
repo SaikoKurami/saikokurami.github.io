@@ -1372,6 +1372,7 @@ Enhanced liked users overview*/
 .activity-entry.preview.activity-text .text {
     padding-bottom: 35px !important;
 }
+.activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]::after,
 .activity-markdown .markdown a[href="https://sptfy.com/70ba"]::after {
     content: '\f04b';
     font-family: fontawesome;
@@ -1387,6 +1388,12 @@ Enhanced liked users overview*/
     border-radius: 50%;
     opacity: 0;
     transition: 0.2s;
+}
+.activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]:hover:after,
+.activity-markdown .markdown a[href="https://sptfy.com/70ba"]:hover:after {
+    bottom: 74px;
+    opacity: 1 !important;
+    transition: 0.5s;
 }
 /*SINON COVER*/
 
