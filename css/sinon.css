@@ -1382,6 +1382,7 @@ Enhanced liked users overview*/
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1):hover {
     background-image: var(--saiko-gif) !important;
     transition: var(--saiko-transition-normal);
+    filter: brightness(1.5);
 }
 
 a.favourite.media.hohExtraFav {
