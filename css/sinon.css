@@ -1372,6 +1372,22 @@ Enhanced liked users overview*/
 .activity-entry.preview.activity-text .text {
     padding-bottom: 35px !important;
 }
+.activity-markdown .markdown a[href="https://sptfy.com/70ba"]::after {
+    content: '\f04b';
+    font-family: fontawesome;
+    background-color: rgb(var(--saiko-cyan));
+    color: white;
+    padding: 6px 3px 6px 6px;
+    display: inline-block;
+    text-align: center;
+    right: 50px;
+    bottom: 66px;
+    position: absolute;
+    width: 33px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.2s;
+}
 /*SINON COVER*/
 
 .content.container > div > div:nth-child(1) > div:nth-child(6) > div > a:nth-child(1) {
