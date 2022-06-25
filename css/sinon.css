@@ -1208,7 +1208,9 @@ display: none;
     border-bottom: 3px solid rgba(var(--saiko-light-gray), 0.3);
     padding: 15px 10px 0px 10px;
 }
-
+.activity-edit {
+    max-height: 51px;
+}
 /*Spotify feature made by me! ♪(^∇^*) */
 
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
