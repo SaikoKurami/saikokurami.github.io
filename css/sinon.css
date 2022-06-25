@@ -1211,6 +1211,10 @@ display: none;
 .activity-edit {
     max-height: 51px;
 }
+.hohPinned .wrap {
+    height: 356.938px !important;
+    width: 800px;
+}
 /*Spotify feature made by me! ♪(^∇^*) */
 
 .content.container > div > div:nth-child(1) > div:nth-child(3) > h2:before {
