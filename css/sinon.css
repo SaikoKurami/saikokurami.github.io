@@ -1449,6 +1449,9 @@ a.favourite.media.hohExtraFav {
     justify-content: center;
     transition: opacity 0.2s ease-in-out;
     opacity: 1;
+    font-size: 1.2rem;
+    height: 20px;
+    padding-top: 4px;
 }
 
 .favourites-wrap.staff > a:hover:after {
@@ -1469,7 +1472,7 @@ a.favourite.media.hohExtraFav {
 .favourites-wrap.staff > a:nth-child(23):after,
 .favourites-wrap.staff > a:nth-child(24):after,
 .favourites-wrap.staff > a:nth-child(25):after {
-    content: '\f028';
+    content: '\f6a8';
 }
 
 /*Illustrator & Author*/
@@ -1479,9 +1482,6 @@ a.favourite.media.hohExtraFav {
 .favourites-wrap.staff > a:nth-child(9)::after,
 .favourites-wrap.staff > a:nth-child(10)::after {
     content: '\f304';
-    font-size: 1.2rem;
-    height: 20px;
-    padding-top: 4px;
 }
 
 /*Music Artist*/
@@ -1493,9 +1493,6 @@ a.favourite.media.hohExtraFav {
 .favourites-wrap.staff > a:nth-child(16)::after,
 .favourites-wrap.staff > a:nth-child(17)::after {
     content: '\f8cb';
-    height: 20px;
-    font-size: 1.2rem;
-    padding-top: 4px;
 }
 
 /*FOOTER PARTICLE BACKGROUND*/
