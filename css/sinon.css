@@ -1301,6 +1301,7 @@ display: none;
     opacity: 1 !important;
     transition: var(--saiko-transition-faster);
 }
+
 .overview
   > .section
   > .about
@@ -1308,14 +1309,14 @@ display: none;
   > .markdown
   b[href="Spotfy"]
   > a::after {
-    content: '';
-    -webkit-mask: var(--spotfy-logo) no-repeat 50% 50%;
+    content: '\f1bc';
     -webkit-mask-size: auto;
     position: absolute;
-    padding: 60px 67px;
-    background-color: rgb(var(--saiko-cyan));
-    overflow: overlay;
-    transform: translate(112px, 270px) scale(0.3);
+    font-family: 'FontAwesome';
+    font-size: 3rem;
+    color: rgb(var(--saiko-cyan));
+    font-weight: normal;
+    transform: translate(166px, 309px);
     z-index: 4;
 }
 
