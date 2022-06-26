@@ -1433,6 +1433,68 @@ a.favourite.media.hohExtraFav {
     transform: translate(-11px, -31px) rotate(333deg);
 }
 
+/*Favorites Icons*/
+
+.favourites-wrap.staff > a:after {
+    font-family: 'FontAwesome';
+    transform: translate(5px, 5px);
+    display: flex;
+    color: rgb(var(--saiko-white));
+    backdrop-filter: blur(1px);
+    background-color: rgba(var(--color-background),0.3);
+    width: 30px;
+    border-radius: 6px;
+    justify-content: center;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.favourites-wrap.staff > a:hover:after {
+    opacity: 0 !important;
+    transition: 0.5s;
+}
+/*Seiyuu*/
+.favourites-wrap.staff > a:nth-child(1):after,
+.favourites-wrap.staff > a:nth-child(2):after,
+.favourites-wrap.staff > a:nth-child(3):after,
+.favourites-wrap.staff > a:nth-child(4):after,
+.favourites-wrap.staff > a:nth-child(5):after,
+.favourites-wrap.staff > a:nth-child(18):after,
+.favourites-wrap.staff > a:nth-child(19):after,
+.favourites-wrap.staff > a:nth-child(20):after,
+.favourites-wrap.staff > a:nth-child(21):after,
+.favourites-wrap.staff > a:nth-child(22):after,
+.favourites-wrap.staff > a:nth-child(23):after,
+.favourites-wrap.staff > a:nth-child(24):after,
+.favourites-wrap.staff > a:nth-child(25):after {
+    content: '\f028';
+}
+
+/*Illustrator & Author*/
+.favourites-wrap.staff > a:nth-child(6)::after,
+.favourites-wrap.staff > a:nth-child(7)::after,
+.favourites-wrap.staff > a:nth-child(8)::after,
+.favourites-wrap.staff > a:nth-child(9)::after,
+.favourites-wrap.staff > a:nth-child(10)::after {
+    content: '\f304';
+    font-size: 1.2rem;
+    height: 20px;
+    padding-top: 4px;
+}
+
+/*Music Artist*/
+.favourites-wrap.staff > a:nth-child(11)::after,
+.favourites-wrap.staff > a:nth-child(12)::after,
+.favourites-wrap.staff > a:nth-child(13)::after,
+.favourites-wrap.staff > a:nth-child(14)::after,
+.favourites-wrap.staff > a:nth-child(15)::after,
+.favourites-wrap.staff > a:nth-child(16)::after,
+.favourites-wrap.staff > a:nth-child(17)::after {
+    content: '\f8cb';
+    height: 20px;
+    font-size: 1.2rem;
+    padding-top: 4px;
+}
 
 /*FOOTER PARTICLE BACKGROUND*/
 
