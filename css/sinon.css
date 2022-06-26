@@ -532,7 +532,7 @@ Activity cover background (///￣皿￣)○～
     > div
     > div.status
     > a {
-    width: 290px;
+    width: 270px;
     transition: 1s;
   }
 }
@@ -1364,6 +1364,7 @@ Enhanced liked users overview*/
     left: -65px;
     transform: scale(0.3);
     z-index: 2;
+    pointer-events: none;
 }
 .activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]::before {
     content: url(https://i.imgur.com/0q7p4Dq.png);
