@@ -1478,12 +1478,13 @@ a.favourite.media.hohExtraFav {
 /*Illustrator & Author*/
 .favourites-wrap.staff > a:nth-child(6)::after,
 .favourites-wrap.staff > a:nth-child(7)::after,
-.favourites-wrap.staff > a:nth-child(8)::after,
-.favourites-wrap.staff > a:nth-child(9)::after,
-.favourites-wrap.staff > a:nth-child(10)::after {
+.favourites-wrap.staff > a:nth-child(8)::after {
     content: '\f304';
 }
-
+.favourites-wrap.staff > a:nth-child(9)::after,
+ .favourites-wrap.staff > a:nth-child(10)::after {
+    content: '\f52d';
+}
 /*Music Artist*/
 .favourites-wrap.staff > a:nth-child(11)::after,
 .favourites-wrap.staff > a:nth-child(12)::after,
