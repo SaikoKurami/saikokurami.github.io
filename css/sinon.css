@@ -1208,9 +1208,7 @@ display: none;
     border-bottom: 3px solid rgba(var(--saiko-light-gray), 0.3);
     padding: 15px 10px 0px 10px;
 }
-.activity-feed-wrap > div.activity-edit {
-    max-height: 51px;
-}
+
 .hohPinned .wrap {
     height: 356.938px !important;
     width: 800px;
