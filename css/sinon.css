@@ -469,6 +469,9 @@ display: none;
     left: 16px;
     -webkit-filter: blur(1.7px);
 }
+.activity-edit > div.actions {
+    margin-bottom: 30px;
+}
 
 /*
 Activity cover background (///￣皿￣)○～ 
