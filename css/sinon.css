@@ -469,7 +469,7 @@ display: none;
     left: 16px;
     -webkit-filter: blur(1.7px);
 }
-.activity-edit > div.actions {
+.content.container > div > div:nth-child(2) > div.activity-feed-wrap > div.activity-edit > div.actions {
     margin-bottom: 30px;
 }
 
