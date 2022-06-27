@@ -1187,7 +1187,7 @@ display: none;
     content: url(https://i.imgur.com/4oH5KIQ.gif);
     position: absolute;
     top: 1px;
-    transform: scale(.605) translate(-351px, -727px);
+    transform: scale(.605) translate(-351px, 890px);
 }
 
 .activity-feed-wrap:before {
