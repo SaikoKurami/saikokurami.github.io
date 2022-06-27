@@ -1176,7 +1176,7 @@ display: none !important;
 }
 
 .activity-feed-wrap {
-    transform: translateY(374px);
+     margin-top: 400px !important;
 }
 
 .activity-feed::-webkit-scrollbar {
