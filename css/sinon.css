@@ -705,7 +705,7 @@ background-color: rgb(var(--color-foreground-grey));
 /*Spoiler*/
 .markdown .markdown-spoiler:before {
     color: rgb(var(--color-background));
-    background: rgb(var(--saiko-cyan));
+    background: rgba(var(--saiko-cyan),0.2);
     border-radius: 40px;
     content: "S P O I L E R";
     padding: 2px 16px;
