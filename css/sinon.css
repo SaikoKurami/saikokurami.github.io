@@ -1170,26 +1170,20 @@ display: none !important;
     height: 356.938px !important;
 }
 
-.activity-feed {
-    max-height: 4940px !important;
-    overflow: auto;
-}
-
-.activity-feed-wrap {
-     margin-top: 400px !important;
-}
 
 .activity-feed::-webkit-scrollbar {
 display: none;
 }
 
-.activity-feed-wrap:after {
-    content: url(https://i.imgur.com/4oH5KIQ.gif);
-    position: absolute;
-    top: 1px;
-    transform: scale(.605) translate(-351px, 890px);
+@media (min-width: 1040px) and (max-width: 1540px) {
+.activity-feed {
+    max-height: 5150px !important;
+    overflow: auto;
+    }
 }
 
+
+@media (min-width: 1540px){
 .activity-feed-wrap:before {
     content: '';
     background: rgb(var(--color-foreground));
@@ -1199,7 +1193,22 @@ display: none;
     position: absolute;
     display: inline-block;
     transform: translateY(-375px);
+    }
+.activity-feed-wrap:after {
+    content: url(https://i.imgur.com/4oH5KIQ.gif);
+    position: absolute;
+    top: 1px;
+    transform: scale(.605) translate(-351px, 890px);
+    }
+.activity-feed-wrap {
+    margin-top: 400px !important;
+    }
+.activity-feed {
+    max-height: 4940px !important;
+    overflow: auto;
+    }
 }
+
 
 .activity-entry.hohPinned.activity-text {
     position: absolute;
