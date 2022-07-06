@@ -713,6 +713,10 @@ background-color: rgb(var(--color-foreground-grey));
     font-weight: bold;
 }
 
+.markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown-spoiler.spoiler-visible span {
+    font-size: 1rem;
+}
+
 /*load-more*/
 .scroller:hover .load-more:before {
     margin-left: -60px !important;
