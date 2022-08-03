@@ -1257,7 +1257,7 @@ display: none;
 .genres .amount {
     display: none !important;
 }
-.genre-overview.content-wrap.genres:before {
+.content.container .genres:before {
     content: var(--spotfy-error-playing);
     transform: scale(0.64);
     display: inline-block;
