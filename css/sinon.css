@@ -1262,7 +1262,7 @@ display: none;
 > div:nth-child(1) 
 > div:nth-child(3) 
 > div 
-> div.genres:before:before {
+> div.genres:before {
     content: var(--spotfy-error-playing);
     transform: scale(0.64);
     display: inline-block;
