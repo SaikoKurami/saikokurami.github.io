@@ -1257,7 +1257,12 @@ display: none;
 .genres .amount {
     display: none !important;
 }
-.content.container .genres:before {
+.content.container 
+> div 
+> div:nth-child(1) 
+> div:nth-child(3) 
+> div 
+> div.genres:before:before {
     content: var(--spotfy-error-playing);
     transform: scale(0.64);
     display: inline-block;
