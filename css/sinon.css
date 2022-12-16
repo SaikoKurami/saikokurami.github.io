@@ -1375,6 +1375,16 @@ Enhanced liked users overview*/
     transform: scale(0.91);
     border: 1px solid rgb(var(--saiko-cyan));
 }
+.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]::before {
+    content: url(https://i.imgur.com/PH1dXVL.png);
+    -webkit-mask-size: auto;
+    position: absolute;
+    bottom: -14px;
+    left: -65px;
+    transform: scale(0.3);
+    z-index: 2;
+    pointer-events: none;
+}
 .activity-markdown .markdown a[href="https://sptfy.com/70ba"]::before {
     content: url(https://i.imgur.com/PH1dXVL.png);
     -webkit-mask-size: auto;
@@ -1416,6 +1426,11 @@ Enhanced liked users overview*/
 }
 .activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]:hover:after,
 .activity-markdown .markdown a[href="https://sptfy.com/70ba"]:hover:after {
+    bottom: 74px;
+    opacity: 1 !important;
+    transition: 0.5s;
+}
+.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]:hover:after {
     bottom: 74px;
     opacity: 1 !important;
     transition: 0.5s;
