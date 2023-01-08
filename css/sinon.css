@@ -522,6 +522,7 @@ Activity cover background (///￣皿￣)○～
 }
 .list.small .cover{
   transition: 0.5s;
+  pointer-events: none;
 }
 .activity-entry .wrap:hover .list.small .cover{
   margin-right: 50px;
