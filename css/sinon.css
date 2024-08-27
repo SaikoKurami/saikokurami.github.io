@@ -1304,7 +1304,7 @@ display: none;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
-    transform: translate(173px, 113.5px) scale(0.12);
+    transform: translate(173px, 128.5px) scale(0.12);
     overflow: overlay;
     z-index: 5;
     opacity: 0;
@@ -1336,7 +1336,7 @@ display: none;
     font-size: 3rem;
     color: rgb(var(--saiko-cyan));
     font-weight: normal;
-    transform: translate(166px, 309px);
+    transform: translate(166px, 324px);
     z-index: 4;
 }
 
@@ -1348,7 +1348,7 @@ display: none;
     background: var(--spotfy-background-color);
     height: 43px;
     width: 56px;
-    transform: translate(151px, 308px);
+    transform: translate(151px, 323px);
     z-index: 4;
     position: absolute;
     display: inline-block;
