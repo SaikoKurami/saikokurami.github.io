@@ -1430,7 +1430,7 @@ Enhanced liked users overview*/
     transition: 0.2s;
 }
 .activity-markdown .markdown a[href="https://soundcloud.com/saikokurami/sets/animix-sk"]:hover:after,
-.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]::after,
+.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]:hover:after,
 .activity-markdown .markdown a[href="https://sptfy.com/70ba"]:hover:after {
     bottom: 74px;
     opacity: 1 !important;
