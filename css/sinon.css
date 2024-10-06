@@ -1306,7 +1306,7 @@ display: none;
     -webkit-mask-size: auto;
     position: absolute;
     padding: 60px 67px;
-    transform: translate(175px, 128.5px) scale(0.12);
+    transform: translate(175px, 121.5px) scale(0.12);
     overflow: overlay;
     z-index: 5;
     opacity: 0;
