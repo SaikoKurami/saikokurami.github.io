@@ -1096,8 +1096,8 @@ body .overview .favourite.studio,
     content: "";
     background-image: var(--saiko-stray-guild);
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 10%;
+    height: 20%;
     display: block;
     position: fixed;
     bottom: 0;
@@ -1106,18 +1106,20 @@ body .overview .favourite.studio,
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-.about p:nth-child(16) > a:nth-child(2)::before {
+.about a:nth-child(6)::before {
     content: "";
     background-image: var(--saiko-techno-circle);
     background-size: contain;
-    width: 222px;
-    height: 239px;
+    width: 9%;
+    height: 20%;
     display: block;
     position: fixed;
-    bottom: -50px;
-    left: -40px;
+    background-repeat: no-repeat;
+    bottom: -2%;
+    left: -1%;
     z-index: 20;
     animation: spin 30s infinite linear;
+    scale: 1.2;
 }
 @keyframes spin {
   0% {
