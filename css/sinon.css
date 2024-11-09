@@ -1653,3 +1653,45 @@ animation: zoomIn;
     animation: slideInLeft;
     animation-duration: var(--saiko-transition-slow);
 }
+
+/* Replace No activities to gun shots */
+
+.history-day.lv-0 {
+    background-repeat: no-repeat;
+    background-size: 9px;
+    overflow: visible !important;
+    scale: 1.6;
+    border-radius: 0 !important;
+    background-color: rgb(255 255 255 / 0%);
+    filter: brightness(0.5);
+}
+
+/* Assign different background images based on nth-child */
+.history-day.lv-0:nth-child(3n + 1) {
+    background-image: url(https://i.imgur.com/0LLHhXB.png) !important;
+}
+
+.history-day.lv-0:nth-child(3n + 2) {
+    background-image: url(https://imgur.com/xIss2M3.png) !important;
+}
+
+.history-day.lv-0:nth-child(3n) {
+    background-image: url(https://imgur.com/bP5STie.png) !important;
+}
+
+/* Apply different random rotations with 15-degree differences */
+.history-day.lv-0:nth-child(4n + 1) {
+    transform: rotate(15deg);
+}
+
+.history-day.lv-0:nth-child(4n + 2) {
+    transform: rotate(-15deg);
+}
+
+.history-day.lv-0:nth-child(4n + 3) {
+    transform: rotate(30deg);
+}
+
+.history-day.lv-0:nth-child(4n) {
+    transform: rotate(-30deg);
+}
