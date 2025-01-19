@@ -80,22 +80,12 @@
     top: 16px !important;
     position: absolute !important;
 }
-.home .activity-entry.activity-anime_list .time,
-.home .activity-entry.activity-manga_list .time,
-.home .donator-badge {
-    transition: 0.5s;
-}
 
 .home .wrap:hover .donator-badge {
     transition: 1s;
     right: 90px;
 }
 
-.home .activity-entry.activity-anime_list .wrap:hover .time,
-.home .activity-entry.activity-manga_list .wrap:hover .time {
-    transition: 0.5s;
-    right: 95px;
-}
 
 .home .time {
     right: 20px;
