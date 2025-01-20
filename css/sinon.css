@@ -300,7 +300,7 @@ display: none;
     background: rgb(var(--saiko-light-gray));
     margin-bottom: 8px;
     border-radius: 20px;
-    width: 200px;
+    width: 120px;
 }
 
 .header-wrap .actions .dropdown {
