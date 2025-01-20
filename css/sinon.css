@@ -165,7 +165,10 @@ display: none !important;
 > h2 {
     margin-top: 30px;
 }
-
+.pinned {
+    position: absolute;
+    margin-right: 10px;
+}
 /*===============================================
     Top Navigation
 ===============================================*/
