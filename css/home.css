@@ -81,12 +81,6 @@
     position: absolute !important;
 }
 
-.home .wrap:hover .donator-badge {
-    transition: 1s;
-    right: 90px;
-}
-
-
 .home .time {
     right: 20px;
     top: 15px;
