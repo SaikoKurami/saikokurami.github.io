@@ -426,7 +426,7 @@ display: none;
 }
 */
 
-@media (min-width: 1540px) {
+ {
 .activity-anime_list .wrap:hover .cover,
 .activity-manga_list .wrap:hover .cover {
     max-height: 200px;
@@ -476,7 +476,7 @@ display: none;
 /*
 Activity cover background (///￣皿￣)○～ 
 */
-@media (min-width: 1540px) {
+ {
     .activity-feed > div > div.wrap > div.list.small > a::before {
      content: "";
     background: inherit;
@@ -491,7 +491,7 @@ Activity cover background (///￣皿￣)○～
     }
 }
 
-@media (min-width: 1540px) {
+ {
     .activity-anime_list .wrap, .activity-manga_list .wrap {
         background: linear-gradient(90deg, rgba(2,0,36,0) -2%, rgba(19,28,45,0.6558998599439776) 15%, rgba(21,31,46,0.983631) 25%, rgba(21,31,46,1) 100%);
     }
@@ -531,7 +531,7 @@ Activity cover background (///￣皿￣)○～
 .details .status {
     text-shadow: 0px 0px 4px rgb(21 31 46 / 86%);
 }
-@media (min-width: 1540px){
+{
   .activity-entry .wrap:hover .list.small 
     > div
     > div.status
@@ -550,7 +550,7 @@ Activity cover background (///￣皿￣)○～
 /* 
 Activity Title-overflow fixed !(*￣(￣　*)
 */
-@media (min-width: 1540px) {
+ {
 .list.small 
     > div
     > div.status
@@ -1186,7 +1186,7 @@ display: none;
 
 @media (min-width: 1040px) and (max-width: 1540px) {
 .activity-feed {
-    max-height: 5150px !important;
+    max-height: 5123px !important;
     overflow: auto;
     }
 }
@@ -1213,7 +1213,7 @@ display: none;
     margin-top: 400px !important;
     }
 .activity-feed {
-    max-height: 4940px !important;
+    max-height: 4918px !important;
     overflow: auto;
     }
 }
