@@ -550,7 +550,7 @@ Activity cover background (///￣皿￣)○～
 /* 
 Activity Title-overflow fixed !(*￣(￣　*)
 */
- {
+
 .list.small .status a {
     white-space: nowrap;
     width: 230px;
@@ -558,7 +558,6 @@ Activity Title-overflow fixed !(*￣(￣　*)
     display: block;
     text-overflow: ellipsis;
   }
-}
 
 /*
 Hide Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
