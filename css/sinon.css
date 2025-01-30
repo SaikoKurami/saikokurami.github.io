@@ -531,15 +531,15 @@ Activity cover background (///￣皿￣)○～
 .details .status {
     text-shadow: 0px 0px 4px rgb(21 31 46 / 86%);
 }
-{
-  .activity-entry .wrap:hover .list.small 
+
+.activity-entry .wrap:hover .list.small 
     > div
     > div.status
     > a {
-    width: 270px;
+    width: 280px;
     transition: 1s;
   }
-}
+
 .activity-entry .wrap:hover .details .status{
   color: rgb(var(--saiko-white));
 }
