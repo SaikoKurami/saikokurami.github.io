@@ -551,10 +551,7 @@ Activity cover background (///￣皿￣)○～
 Activity Title-overflow fixed !(*￣(￣　*)
 */
  {
-.list.small 
-    > div
-    > div.status
-    > a {
+.list.small .status a {
     white-space: nowrap;
     width: 230px;
     overflow: hidden;
@@ -587,17 +584,8 @@ Hide Guild feature on 1280px screen (๑•̀ㅂ•́)و✧
 }
 */
 
-.full-width.activity-anime_list 
-> .wrap 
-> .list.small 
-> div 
-> div.status 
-> a,
-.full-width.activity-manga_list 
-> .wrap > .list.small 
-> div 
-> div.status 
-> a {
+.full-width.activity-anime_list .list.small .status a,
+.full-width.activity-manga_list .list.small .status a {
     width: 600px;
 }
 
