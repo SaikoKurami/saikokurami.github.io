@@ -1374,7 +1374,8 @@ Enhanced liked users overview*/
     pointer-events: none;
 }
 .activity-markdown .markdown a[href="https://spti.fi/ANIMIX-SK"]::before,
-.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]::before {
+.activity-markdown .markdown a[href="https://open.spotify.com/playlist/78c29niQZ3tAOciZ4Bg3jo"]::before,
+.activity-markdown .markdown [href^="https://saikokurami.onrender.com/"]::before {
     content: url(https://i.imgur.com/PH1dXVL.png);
     -webkit-mask-size: auto;
     position: absolute;
