@@ -1340,7 +1340,7 @@ display: none;
     position: absolute;
     display: inline-block;
 }
-Enhanced liked users overview*/
+/*Enhanced liked users overview*/
 .action.likes:hover .action.likes .users {
     display: flex !important;
     flex-direction: row;
