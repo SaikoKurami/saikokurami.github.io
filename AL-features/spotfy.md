@@ -1,11 +1,11 @@
 # Spotify Feature on your Anilist by Chris (SaikoKurami)
 *Warning: This will replace on your Genres section.*
-<br><br><img width="500px" src="https://i.imgur.com/W8StT8v.png"></br></br>
+<br><br><img width="500px" src="https://i.imgur.com/SN7R6Q3.png"></br></br>
 **Instruction**
 1.  Go to this **[spotify-github-profile site](https://spotify-github-profile.kittinanx.com/)** to grant permission to get your markdown code of your Spotify.
 2. Choose theme **nateemo-re** and select your bar color that you want.
 3. Then copy the url, not the whole mark down but only the code that I underlined on the image below.
-<br><br><img width="450px" src="https://i.imgur.com/9Jcww7z.png"></br></br>
+<br><br><img width="450px" src="https://i.imgur.com/W8StT8v.png"></br></br>
 4. After copying the url, paste it on **--spotfy-url-profile** and just add the color that you want on the theme, change the font size of the title or the border length.
 ```css
 @import url("https://saikokurami.github.io/css/spotfy.css");
