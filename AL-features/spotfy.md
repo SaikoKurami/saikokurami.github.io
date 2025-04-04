@@ -2,7 +2,7 @@
 *Warning: This will replace on your Genres section.*
 <br><br><img width="500px" src="https://i.imgur.com/SN7R6Q3.png"></br></br>
 **Instruction**
-1.  Go to this **[spotify-github-profile site](https://spotify-github-profile.vercel.app/api/login)** to grant permission to get your markdown code of your Spotify.
+1.  Go to this **[spotify-github-profile site](https://spotify-github-profile.kittinanx.com/)** to grant permission to get your markdown code of your Spotify.
 2. Choose theme **nateemo-re** and select your bar color that you want.
 3. Then copy the url, not the whole mark down but only the code that I underlined on the image below.
 <br><br><img width="450px" src="https://i.imgur.com/9Jcww7z.png"></br></br>
@@ -23,7 +23,7 @@
 @import url("https://saikokurami.github.io/css/spotfy.css");
 
 :root{
-    --spotfy-url-profile: url(https://spotify-github-profile.vercel.app/api/view?uid=5aez4z9lwf4gdfda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
+    --spotfy-url-profile: url(https://spotify-github-profile.kittinanx.com/api/view?uid=5aez4z9lwf4gdfda53jag&cover_image=true&theme=natemoo-re&bar_color=73becb&bar_color_cover=false);
     --spotfy-bacground-color: rgb(45, 45, 45);
     --spotfy-logo-color: rgb(254, 121, 0);
     --spotfy-border: 2px solid rgb(254 121 0);
