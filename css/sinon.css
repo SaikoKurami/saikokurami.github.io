@@ -434,18 +434,7 @@ display: none;
     }
 }
 
-.activity-feed > div > div.wrap > div.list.small > a::before {
-    content: "";
-    background: inherit;
-    width: 17%;
-    height: 113%;
-    display: block;
-    z-index: -3;
-    position: absolute;
-    top: -5px;
-    left: 14px;
-    -webkit-filter: blur(1.7px);
-}
+
 
 .activity-anime_list .wrap, .activity-manga_list .wrap {
     background: linear-gradient(90deg, rgba(2,0,36,0) 3%, rgba(19,28,45,0.6558998599439776) 10%, rgba(21,31,46,0.9836309523809523) 23%, rgba(21,31,46,1) 100%);
@@ -476,7 +465,7 @@ display: none;
 /*
 Activity cover background (///￣皿￣)○～ 
 */
- {
+
     .activity-feed > div > div.wrap > div.list.small > a::before {
      content: "";
     background: inherit;
@@ -489,13 +478,6 @@ Activity cover background (///￣皿￣)○～
     left: 25px;
     -webkit-filter: blur(1.7px);
     }
-}
-
- {
-    .activity-anime_list .wrap, .activity-manga_list .wrap {
-        background: linear-gradient(90deg, rgba(2,0,36,0) -2%, rgba(19,28,45,0.6558998599439776) 15%, rgba(21,31,46,0.983631) 25%, rgba(21,31,46,1) 100%);
-    }
-}
 
 .wrap 
 > div.list.small 
@@ -1679,4 +1661,5 @@ animation: zoomIn;
 .history-day.lv-0:nth-child(4n) {
     transform: rotate(-30deg);
 }
+
 
