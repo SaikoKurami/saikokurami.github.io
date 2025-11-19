@@ -1055,9 +1055,9 @@ body .overview .favourite.studio,
 /*===============================================
     Added Features
 ===============================================*/
-
+#\30 \.7714916581552236 > center > a:nth-child(7) > img
 /*Sinon Discord Server*/
-.about a:nth-child(6)::after {
+.about a:nth-child(7)::after {
     content: "";
     background-image: var(--saiko-stray-guild);
     background-size: cover;
@@ -1071,7 +1071,7 @@ body .overview .favourite.studio,
     filter: drop-shadow(4px -1px 2px rgba(21,31,46, 0.5));
 }
 
-.about a:nth-child(6)::before {
+.about a:nth-child(7)::before {
     content: "";
     background-image: var(--saiko-techno-circle);
     background-size: contain;
@@ -1661,5 +1661,6 @@ animation: zoomIn;
 .history-day.lv-0:nth-child(4n) {
     transform: rotate(-30deg);
 }
+
 
 
